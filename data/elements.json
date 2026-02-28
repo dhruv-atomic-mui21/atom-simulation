@@ -1,56 +1,4507 @@
 {
-  "1":  {"atomic_number":1,"symbol":"H","name":"Hydrogen","atomic_mass":1.008,"electron_config":[1],"electronegativity":2.20,"ionization_energy_eV":13.598,"electron_affinity_eV":0.754,"atomic_radius_pm":53,"covalent_radius_pm":31,"vdw_radius_pm":120,"category":"nonmetal","period":1,"group":1,"valence_electrons":1,"oxidation_states":[-1,1],"color_rgb":[255,255,255]},
-  "2":  {"atomic_number":2,"symbol":"He","name":"Helium","atomic_mass":4.003,"electron_config":[2],"electronegativity":0.0,"ionization_energy_eV":24.587,"electron_affinity_eV":0.0,"atomic_radius_pm":31,"covalent_radius_pm":28,"vdw_radius_pm":140,"category":"noble_gas","period":1,"group":18,"valence_electrons":2,"oxidation_states":[0],"color_rgb":[217,255,255]},
-  "3":  {"atomic_number":3,"symbol":"Li","name":"Lithium","atomic_mass":6.941,"electron_config":[2,1],"electronegativity":0.98,"ionization_energy_eV":5.392,"electron_affinity_eV":0.618,"atomic_radius_pm":167,"covalent_radius_pm":128,"vdw_radius_pm":182,"category":"alkali_metal","period":2,"group":1,"valence_electrons":1,"oxidation_states":[1],"color_rgb":[204,128,255]},
-  "4":  {"atomic_number":4,"symbol":"Be","name":"Beryllium","atomic_mass":9.012,"electron_config":[2,2],"electronegativity":1.57,"ionization_energy_eV":9.323,"electron_affinity_eV":0.0,"atomic_radius_pm":112,"covalent_radius_pm":96,"vdw_radius_pm":153,"category":"alkaline_earth","period":2,"group":2,"valence_electrons":2,"oxidation_states":[2],"color_rgb":[194,255,0]},
-  "5":  {"atomic_number":5,"symbol":"B","name":"Boron","atomic_mass":10.81,"electron_config":[2,3],"electronegativity":2.04,"ionization_energy_eV":8.298,"electron_affinity_eV":0.277,"atomic_radius_pm":87,"covalent_radius_pm":84,"vdw_radius_pm":192,"category":"metalloid","period":2,"group":13,"valence_electrons":3,"oxidation_states":[3],"color_rgb":[255,181,181]},
-  "6":  {"atomic_number":6,"symbol":"C","name":"Carbon","atomic_mass":12.011,"electron_config":[2,4],"electronegativity":2.55,"ionization_energy_eV":11.260,"electron_affinity_eV":1.263,"atomic_radius_pm":77,"covalent_radius_pm":76,"vdw_radius_pm":170,"category":"nonmetal","period":2,"group":14,"valence_electrons":4,"oxidation_states":[-4,-3,-2,-1,1,2,3,4],"color_rgb":[144,144,144]},
-  "7":  {"atomic_number":7,"symbol":"N","name":"Nitrogen","atomic_mass":14.007,"electron_config":[2,5],"electronegativity":3.04,"ionization_energy_eV":14.534,"electron_affinity_eV":-0.07,"atomic_radius_pm":75,"covalent_radius_pm":71,"vdw_radius_pm":155,"category":"nonmetal","period":2,"group":15,"valence_electrons":5,"oxidation_states":[-3,-2,-1,1,2,3,4,5],"color_rgb":[48,80,248]},
-  "8":  {"atomic_number":8,"symbol":"O","name":"Oxygen","atomic_mass":15.999,"electron_config":[2,6],"electronegativity":3.44,"ionization_energy_eV":13.618,"electron_affinity_eV":1.461,"atomic_radius_pm":73,"covalent_radius_pm":66,"vdw_radius_pm":152,"category":"nonmetal","period":2,"group":16,"valence_electrons":6,"oxidation_states":[-2,-1,1,2],"color_rgb":[255,13,13]},
-  "9":  {"atomic_number":9,"symbol":"F","name":"Fluorine","atomic_mass":18.998,"electron_config":[2,7],"electronegativity":3.98,"ionization_energy_eV":17.422,"electron_affinity_eV":3.401,"atomic_radius_pm":71,"covalent_radius_pm":64,"vdw_radius_pm":147,"category":"halogen","period":2,"group":17,"valence_electrons":7,"oxidation_states":[-1],"color_rgb":[144,224,80]},
-  "10": {"atomic_number":10,"symbol":"Ne","name":"Neon","atomic_mass":20.180,"electron_config":[2,8],"electronegativity":0.0,"ionization_energy_eV":21.565,"electron_affinity_eV":0.0,"atomic_radius_pm":69,"covalent_radius_pm":58,"vdw_radius_pm":154,"category":"noble_gas","period":2,"group":18,"valence_electrons":8,"oxidation_states":[0],"color_rgb":[179,227,245]},
-  "11": {"atomic_number":11,"symbol":"Na","name":"Sodium","atomic_mass":22.990,"electron_config":[2,8,1],"electronegativity":0.93,"ionization_energy_eV":5.139,"electron_affinity_eV":0.548,"atomic_radius_pm":190,"covalent_radius_pm":166,"vdw_radius_pm":227,"category":"alkali_metal","period":3,"group":1,"valence_electrons":1,"oxidation_states":[1],"color_rgb":[171,92,242]},
-  "12": {"atomic_number":12,"symbol":"Mg","name":"Magnesium","atomic_mass":24.305,"electron_config":[2,8,2],"electronegativity":1.31,"ionization_energy_eV":7.646,"electron_affinity_eV":0.0,"atomic_radius_pm":145,"covalent_radius_pm":141,"vdw_radius_pm":173,"category":"alkaline_earth","period":3,"group":2,"valence_electrons":2,"oxidation_states":[2],"color_rgb":[138,255,0]},
-  "13": {"atomic_number":13,"symbol":"Al","name":"Aluminum","atomic_mass":26.982,"electron_config":[2,8,3],"electronegativity":1.61,"ionization_energy_eV":5.986,"electron_affinity_eV":0.441,"atomic_radius_pm":118,"covalent_radius_pm":121,"vdw_radius_pm":184,"category":"post_transition_metal","period":3,"group":13,"valence_electrons":3,"oxidation_states":[3],"color_rgb":[191,166,166]},
-  "14": {"atomic_number":14,"symbol":"Si","name":"Silicon","atomic_mass":28.086,"electron_config":[2,8,4],"electronegativity":1.90,"ionization_energy_eV":8.152,"electron_affinity_eV":1.385,"atomic_radius_pm":111,"covalent_radius_pm":111,"vdw_radius_pm":210,"category":"metalloid","period":3,"group":14,"valence_electrons":4,"oxidation_states":[-4,4],"color_rgb":[240,200,160]},
-  "15": {"atomic_number":15,"symbol":"P","name":"Phosphorus","atomic_mass":30.974,"electron_config":[2,8,5],"electronegativity":2.19,"ionization_energy_eV":10.487,"electron_affinity_eV":0.746,"atomic_radius_pm":106,"covalent_radius_pm":107,"vdw_radius_pm":180,"category":"nonmetal","period":3,"group":15,"valence_electrons":5,"oxidation_states":[-3,3,5],"color_rgb":[255,128,0]},
-  "16": {"atomic_number":16,"symbol":"S","name":"Sulfur","atomic_mass":32.065,"electron_config":[2,8,6],"electronegativity":2.58,"ionization_energy_eV":10.360,"electron_affinity_eV":2.077,"atomic_radius_pm":102,"covalent_radius_pm":105,"vdw_radius_pm":180,"category":"nonmetal","period":3,"group":16,"valence_electrons":6,"oxidation_states":[-2,2,4,6],"color_rgb":[255,255,48]},
-  "17": {"atomic_number":17,"symbol":"Cl","name":"Chlorine","atomic_mass":35.453,"electron_config":[2,8,7],"electronegativity":3.16,"ionization_energy_eV":12.968,"electron_affinity_eV":3.613,"atomic_radius_pm":99,"covalent_radius_pm":102,"vdw_radius_pm":175,"category":"halogen","period":3,"group":17,"valence_electrons":7,"oxidation_states":[-1,1,3,5,7],"color_rgb":[31,240,31]},
-  "18": {"atomic_number":18,"symbol":"Ar","name":"Argon","atomic_mass":39.948,"electron_config":[2,8,8],"electronegativity":0.0,"ionization_energy_eV":15.760,"electron_affinity_eV":0.0,"atomic_radius_pm":97,"covalent_radius_pm":106,"vdw_radius_pm":188,"category":"noble_gas","period":3,"group":18,"valence_electrons":8,"oxidation_states":[0],"color_rgb":[128,209,227]},
-  "19": {"atomic_number":19,"symbol":"K","name":"Potassium","atomic_mass":39.098,"electron_config":[2,8,8,1],"electronegativity":0.82,"ionization_energy_eV":4.341,"electron_affinity_eV":0.501,"atomic_radius_pm":243,"covalent_radius_pm":203,"vdw_radius_pm":275,"category":"alkali_metal","period":4,"group":1,"valence_electrons":1,"oxidation_states":[1],"color_rgb":[143,64,212]},
-  "20": {"atomic_number":20,"symbol":"Ca","name":"Calcium","atomic_mass":40.078,"electron_config":[2,8,8,2],"electronegativity":1.00,"ionization_energy_eV":6.113,"electron_affinity_eV":0.024,"atomic_radius_pm":194,"covalent_radius_pm":176,"vdw_radius_pm":231,"category":"alkaline_earth","period":4,"group":2,"valence_electrons":2,"oxidation_states":[2],"color_rgb":[61,255,0]},
-  "21": {"atomic_number":21,"symbol":"Sc","name":"Scandium","atomic_mass":44.956,"electron_config":[2,8,9,2],"electronegativity":1.36,"ionization_energy_eV":6.561,"electron_affinity_eV":0.188,"atomic_radius_pm":184,"covalent_radius_pm":170,"vdw_radius_pm":211,"category":"transition_metal","period":4,"group":3,"valence_electrons":2,"oxidation_states":[3],"color_rgb":[230,230,230]},
-  "22": {"atomic_number":22,"symbol":"Ti","name":"Titanium","atomic_mass":47.867,"electron_config":[2,8,10,2],"electronegativity":1.54,"ionization_energy_eV":6.828,"electron_affinity_eV":0.084,"atomic_radius_pm":176,"covalent_radius_pm":160,"vdw_radius_pm":187,"category":"transition_metal","period":4,"group":4,"valence_electrons":2,"oxidation_states":[2,3,4],"color_rgb":[191,194,199]},
-  "23": {"atomic_number":23,"symbol":"V","name":"Vanadium","atomic_mass":50.942,"electron_config":[2,8,11,2],"electronegativity":1.63,"ionization_energy_eV":6.746,"electron_affinity_eV":0.525,"atomic_radius_pm":171,"covalent_radius_pm":153,"vdw_radius_pm":179,"category":"transition_metal","period":4,"group":5,"valence_electrons":2,"oxidation_states":[2,3,4,5],"color_rgb":[166,166,171]},
-  "24": {"atomic_number":24,"symbol":"Cr","name":"Chromium","atomic_mass":51.996,"electron_config":[2,8,13,1],"electronegativity":1.66,"ionization_energy_eV":6.767,"electron_affinity_eV":0.666,"atomic_radius_pm":166,"covalent_radius_pm":139,"vdw_radius_pm":189,"category":"transition_metal","period":4,"group":6,"valence_electrons":1,"oxidation_states":[2,3,6],"color_rgb":[138,153,199]},
-  "25": {"atomic_number":25,"symbol":"Mn","name":"Manganese","atomic_mass":54.938,"electron_config":[2,8,13,2],"electronegativity":1.55,"ionization_energy_eV":7.434,"electron_affinity_eV":0.0,"atomic_radius_pm":161,"covalent_radius_pm":139,"vdw_radius_pm":197,"category":"transition_metal","period":4,"group":7,"valence_electrons":2,"oxidation_states":[2,3,4,7],"color_rgb":[156,122,199]},
-  "26": {"atomic_number":26,"symbol":"Fe","name":"Iron","atomic_mass":55.845,"electron_config":[2,8,14,2],"electronegativity":1.83,"ionization_energy_eV":7.902,"electron_affinity_eV":0.151,"atomic_radius_pm":156,"covalent_radius_pm":132,"vdw_radius_pm":194,"category":"transition_metal","period":4,"group":8,"valence_electrons":2,"oxidation_states":[2,3],"color_rgb":[224,102,51]},
-  "27": {"atomic_number":27,"symbol":"Co","name":"Cobalt","atomic_mass":58.933,"electron_config":[2,8,15,2],"electronegativity":1.88,"ionization_energy_eV":7.881,"electron_affinity_eV":0.662,"atomic_radius_pm":152,"covalent_radius_pm":126,"vdw_radius_pm":192,"category":"transition_metal","period":4,"group":9,"valence_electrons":2,"oxidation_states":[2,3],"color_rgb":[240,144,160]},
-  "28": {"atomic_number":28,"symbol":"Ni","name":"Nickel","atomic_mass":58.693,"electron_config":[2,8,16,2],"electronegativity":1.91,"ionization_energy_eV":7.640,"electron_affinity_eV":1.156,"atomic_radius_pm":149,"covalent_radius_pm":124,"vdw_radius_pm":163,"category":"transition_metal","period":4,"group":10,"valence_electrons":2,"oxidation_states":[2,3],"color_rgb":[80,208,80]},
-  "29": {"atomic_number":29,"symbol":"Cu","name":"Copper","atomic_mass":63.546,"electron_config":[2,8,18,1],"electronegativity":1.90,"ionization_energy_eV":7.726,"electron_affinity_eV":1.235,"atomic_radius_pm":145,"covalent_radius_pm":132,"vdw_radius_pm":140,"category":"transition_metal","period":4,"group":11,"valence_electrons":1,"oxidation_states":[1,2],"color_rgb":[200,128,51]},
-  "30": {"atomic_number":30,"symbol":"Zn","name":"Zinc","atomic_mass":65.380,"electron_config":[2,8,18,2],"electronegativity":1.65,"ionization_energy_eV":9.394,"electron_affinity_eV":0.0,"atomic_radius_pm":142,"covalent_radius_pm":122,"vdw_radius_pm":139,"category":"transition_metal","period":4,"group":12,"valence_electrons":2,"oxidation_states":[2],"color_rgb":[125,128,176]},
-  "31": {"atomic_number":31,"symbol":"Ga","name":"Gallium","atomic_mass":69.723,"electron_config":[2,8,18,3],"electronegativity":1.81,"ionization_energy_eV":5.999,"electron_affinity_eV":0.300,"atomic_radius_pm":136,"covalent_radius_pm":122,"vdw_radius_pm":187,"category":"post_transition_metal","period":4,"group":13,"valence_electrons":3,"oxidation_states":[3],"color_rgb":[194,143,143]},
-  "32": {"atomic_number":32,"symbol":"Ge","name":"Germanium","atomic_mass":72.640,"electron_config":[2,8,18,4],"electronegativity":2.01,"ionization_energy_eV":7.900,"electron_affinity_eV":1.233,"atomic_radius_pm":125,"covalent_radius_pm":120,"vdw_radius_pm":211,"category":"metalloid","period":4,"group":14,"valence_electrons":4,"oxidation_states":[4],"color_rgb":[102,143,143]},
-  "33": {"atomic_number":33,"symbol":"As","name":"Arsenic","atomic_mass":74.922,"electron_config":[2,8,18,5],"electronegativity":2.18,"ionization_energy_eV":9.789,"electron_affinity_eV":0.814,"atomic_radius_pm":114,"covalent_radius_pm":119,"vdw_radius_pm":185,"category":"metalloid","period":4,"group":15,"valence_electrons":5,"oxidation_states":[-3,3,5],"color_rgb":[189,128,227]},
-  "34": {"atomic_number":34,"symbol":"Se","name":"Selenium","atomic_mass":78.960,"electron_config":[2,8,18,6],"electronegativity":2.55,"ionization_energy_eV":9.752,"electron_affinity_eV":2.021,"atomic_radius_pm":103,"covalent_radius_pm":120,"vdw_radius_pm":190,"category":"nonmetal","period":4,"group":16,"valence_electrons":6,"oxidation_states":[-2,4,6],"color_rgb":[255,161,0]},
-  "35": {"atomic_number":35,"symbol":"Br","name":"Bromine","atomic_mass":79.904,"electron_config":[2,8,18,7],"electronegativity":2.96,"ionization_energy_eV":11.814,"electron_affinity_eV":3.364,"atomic_radius_pm":94,"covalent_radius_pm":120,"vdw_radius_pm":185,"category":"halogen","period":4,"group":17,"valence_electrons":7,"oxidation_states":[-1,1,3,5],"color_rgb":[166,41,41]},
-  "36": {"atomic_number":36,"symbol":"Kr","name":"Krypton","atomic_mass":83.798,"electron_config":[2,8,18,8],"electronegativity":3.00,"ionization_energy_eV":14.000,"electron_affinity_eV":0.0,"atomic_radius_pm":88,"covalent_radius_pm":116,"vdw_radius_pm":202,"category":"noble_gas","period":4,"group":18,"valence_electrons":8,"oxidation_states":[0,2],"color_rgb":[92,184,209]},
-  "37": {"atomic_number":37,"symbol":"Rb","name":"Rubidium","atomic_mass":85.468,"electron_config":[2,8,18,8,1],"electronegativity":0.82,"ionization_energy_eV":4.177,"electron_affinity_eV":0.486,"atomic_radius_pm":265,"covalent_radius_pm":220,"vdw_radius_pm":303,"category":"alkali_metal","period":5,"group":1,"valence_electrons":1,"oxidation_states":[1],"color_rgb":[112,46,176]},
-  "38": {"atomic_number":38,"symbol":"Sr","name":"Strontium","atomic_mass":87.620,"electron_config":[2,8,18,8,2],"electronegativity":0.95,"ionization_energy_eV":5.695,"electron_affinity_eV":0.052,"atomic_radius_pm":219,"covalent_radius_pm":195,"vdw_radius_pm":249,"category":"alkaline_earth","period":5,"group":2,"valence_electrons":2,"oxidation_states":[2],"color_rgb":[0,255,0]},
-  "39": {"atomic_number":39,"symbol":"Y","name":"Yttrium","atomic_mass":88.906,"electron_config":[2,8,18,9,2],"electronegativity":1.22,"ionization_energy_eV":6.217,"electron_affinity_eV":0.307,"atomic_radius_pm":212,"covalent_radius_pm":190,"vdw_radius_pm":219,"category":"transition_metal","period":5,"group":3,"valence_electrons":2,"oxidation_states":[3],"color_rgb":[148,255,255]},
-  "40": {"atomic_number":40,"symbol":"Zr","name":"Zirconium","atomic_mass":91.224,"electron_config":[2,8,18,10,2],"electronegativity":1.33,"ionization_energy_eV":6.634,"electron_affinity_eV":0.426,"atomic_radius_pm":206,"covalent_radius_pm":175,"vdw_radius_pm":186,"category":"transition_metal","period":5,"group":4,"valence_electrons":2,"oxidation_states":[4],"color_rgb":[148,224,224]},
-  "47": {"atomic_number":47,"symbol":"Ag","name":"Silver","atomic_mass":107.868,"electron_config":[2,8,18,18,1],"electronegativity":1.93,"ionization_energy_eV":7.576,"electron_affinity_eV":1.302,"atomic_radius_pm":165,"covalent_radius_pm":145,"vdw_radius_pm":172,"category":"transition_metal","period":5,"group":11,"valence_electrons":1,"oxidation_states":[1],"color_rgb":[192,192,192]},
-  "53": {"atomic_number":53,"symbol":"I","name":"Iodine","atomic_mass":126.904,"electron_config":[2,8,18,18,7],"electronegativity":2.66,"ionization_energy_eV":10.451,"electron_affinity_eV":3.059,"atomic_radius_pm":115,"covalent_radius_pm":139,"vdw_radius_pm":198,"category":"halogen","period":5,"group":17,"valence_electrons":7,"oxidation_states":[-1,1,3,5,7],"color_rgb":[148,0,148]},
-  "54": {"atomic_number":54,"symbol":"Xe","name":"Xenon","atomic_mass":131.293,"electron_config":[2,8,18,18,8],"electronegativity":2.60,"ionization_energy_eV":12.130,"electron_affinity_eV":0.0,"atomic_radius_pm":108,"covalent_radius_pm":140,"vdw_radius_pm":216,"category":"noble_gas","period":5,"group":18,"valence_electrons":8,"oxidation_states":[0,2,4,6],"color_rgb":[66,158,176]},
-  "55": {"atomic_number":55,"symbol":"Cs","name":"Cesium","atomic_mass":132.905,"electron_config":[2,8,18,18,8,1],"electronegativity":0.79,"ionization_energy_eV":3.894,"electron_affinity_eV":0.472,"atomic_radius_pm":298,"covalent_radius_pm":244,"vdw_radius_pm":343,"category":"alkali_metal","period":6,"group":1,"valence_electrons":1,"oxidation_states":[1],"color_rgb":[87,23,143]},
-  "56": {"atomic_number":56,"symbol":"Ba","name":"Barium","atomic_mass":137.327,"electron_config":[2,8,18,18,8,2],"electronegativity":0.89,"ionization_energy_eV":5.212,"electron_affinity_eV":0.145,"atomic_radius_pm":253,"covalent_radius_pm":215,"vdw_radius_pm":268,"category":"alkaline_earth","period":6,"group":2,"valence_electrons":2,"oxidation_states":[2],"color_rgb":[0,201,0]},
-  "57": {"atomic_number":57,"symbol":"La","name":"Lanthanum","atomic_mass":138.905,"electron_config":[2,8,18,18,9,2],"electronegativity":1.10,"ionization_energy_eV":5.577,"electron_affinity_eV":0.470,"atomic_radius_pm":274,"covalent_radius_pm":207,"vdw_radius_pm":null,"category":"lanthanide","period":6,"group":3,"valence_electrons":3,"oxidation_states":[3],"color_rgb":[112,212,255]},
-  "72": {"atomic_number":72,"symbol":"Hf","name":"Hafnium","atomic_mass":178.49,"electron_config":[2,8,18,32,10,2],"electronegativity":1.30,"ionization_energy_eV":6.825,"electron_affinity_eV":0.0,"atomic_radius_pm":208,"covalent_radius_pm":175,"vdw_radius_pm":186,"category":"transition_metal","period":6,"group":4,"valence_electrons":2,"oxidation_states":[4],"color_rgb":[77,194,255]},
-  "79": {"atomic_number":79,"symbol":"Au","name":"Gold","atomic_mass":196.967,"electron_config":[2,8,18,32,18,1],"electronegativity":2.54,"ionization_energy_eV":9.226,"electron_affinity_eV":2.309,"atomic_radius_pm":174,"covalent_radius_pm":136,"vdw_radius_pm":166,"category":"transition_metal","period":6,"group":11,"valence_electrons":1,"oxidation_states":[1,3],"color_rgb":[255,209,35]},
-  "82": {"atomic_number":82,"symbol":"Pb","name":"Lead","atomic_mass":207.200,"electron_config":[2,8,18,32,18,4],"electronegativity":2.33,"ionization_energy_eV":7.417,"electron_affinity_eV":0.364,"atomic_radius_pm":154,"covalent_radius_pm":146,"vdw_radius_pm":202,"category":"post_transition_metal","period":6,"group":14,"valence_electrons":4,"oxidation_states":[2,4],"color_rgb":[87,89,97]},
-  "86": {"atomic_number":86,"symbol":"Rn","name":"Radon","atomic_mass":222.000,"electron_config":[2,8,18,32,18,8],"electronegativity":0.0,"ionization_energy_eV":10.749,"electron_affinity_eV":0.0,"atomic_radius_pm":120,"covalent_radius_pm":150,"vdw_radius_pm":220,"category":"noble_gas","period":6,"group":18,"valence_electrons":8,"oxidation_states":[0,2],"color_rgb":[66,130,150]},
-  "89": {"atomic_number":89,"symbol":"Ac","name":"Actinium","atomic_mass":227.0,"electron_config":[2,8,18,32,18,9,2],"electronegativity":1.10,"ionization_energy_eV":5.170,"electron_affinity_eV":0.0,"atomic_radius_pm":260,"covalent_radius_pm":215,"vdw_radius_pm":null,"category":"actinide","period":7,"group":3,"valence_electrons":3,"oxidation_states":[3],"color_rgb":[112,171,250]},
-  "92": {"atomic_number":92,"symbol":"U","name":"Uranium","atomic_mass":238.029,"electron_config":[2,8,18,32,21,9,2],"electronegativity":1.38,"ionization_energy_eV":6.194,"electron_affinity_eV":0.0,"atomic_radius_pm":175,"covalent_radius_pm":196,"vdw_radius_pm":186,"category":"actinide","period":7,"group":3,"valence_electrons":2,"oxidation_states":[3,4,5,6],"color_rgb":[0,143,0]},
-  "104": {"atomic_number":104,"symbol":"Rf","name":"Rutherfordium","atomic_mass":267.0,"electron_config":[2,8,18,32,32,10,2],"electronegativity":null,"ionization_energy_eV":null,"electron_affinity_eV":null,"atomic_radius_pm":null,"covalent_radius_pm":null,"vdw_radius_pm":null,"category":"transition_metal","period":7,"group":4,"valence_electrons":2,"oxidation_states":[4],"color_rgb":[204,204,204]},
-  "118": {"atomic_number":118,"symbol":"Og","name":"Oganesson","atomic_mass":294.0,"electron_config":[2,8,18,32,32,18,8],"electronegativity":null,"ionization_energy_eV":null,"electron_affinity_eV":null,"atomic_radius_pm":null,"covalent_radius_pm":null,"vdw_radius_pm":null,"category":"noble_gas","period":7,"group":18,"valence_electrons":8,"oxidation_states":[0],"color_rgb":[235,235,235]}
+  "1": {
+    "atomic_number": 1,
+    "symbol": "H",
+    "name": "Hydrogen",
+    "atomic_mass": 1.008,
+    "electronegativity": 2.2,
+    "ionization_energy_eV": 13.598,
+    "electron_affinity_eV": 0.754,
+    "atomic_radius_pm": 53,
+    "covalent_radius_pm": 31,
+    "vdw_radius_pm": 120,
+    "category": "nonmetal",
+    "period": 1,
+    "group": 1,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      -1,
+      1
+    ],
+    "color_rgb": [
+      255,
+      255,
+      255
+    ],
+    "electron_config": [
+      1
+    ],
+    "phase": "gas",
+    "melting_point_K": 14.01,
+    "boiling_point_K": 20.28,
+    "density_g_cm3": 9e-05,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "2": {
+    "atomic_number": 2,
+    "symbol": "He",
+    "name": "Helium",
+    "atomic_mass": 4.003,
+    "electronegativity": 0,
+    "ionization_energy_eV": 24.587,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 31,
+    "covalent_radius_pm": 28,
+    "vdw_radius_pm": 140,
+    "category": "noble_gas",
+    "period": 1,
+    "group": 18,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      0
+    ],
+    "color_rgb": [
+      217,
+      255,
+      255
+    ],
+    "electron_config": [
+      2
+    ],
+    "phase": "gas",
+    "melting_point_K": 0.95,
+    "boiling_point_K": 4.22,
+    "density_g_cm3": 0.000179,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "3": {
+    "atomic_number": 3,
+    "symbol": "Li",
+    "name": "Lithium",
+    "atomic_mass": 6.941,
+    "electronegativity": 0.98,
+    "ionization_energy_eV": 5.392,
+    "electron_affinity_eV": 0.618,
+    "atomic_radius_pm": 167,
+    "covalent_radius_pm": 128,
+    "vdw_radius_pm": 182,
+    "category": "alkali_metal",
+    "period": 2,
+    "group": 1,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1
+    ],
+    "color_rgb": [
+      204,
+      128,
+      255
+    ],
+    "electron_config": [
+      2,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 453.69,
+    "boiling_point_K": 1615,
+    "density_g_cm3": 0.534,
+    "second_ionization_eV": 75.64,
+    "metallic_radius_pm": 152
+  },
+  "4": {
+    "atomic_number": 4,
+    "symbol": "Be",
+    "name": "Beryllium",
+    "atomic_mass": 9.012,
+    "electronegativity": 1.57,
+    "ionization_energy_eV": 9.323,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 112,
+    "covalent_radius_pm": 96,
+    "vdw_radius_pm": 153,
+    "category": "alkaline_earth",
+    "period": 2,
+    "group": 2,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      194,
+      255,
+      0
+    ],
+    "electron_config": [
+      2,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1560,
+    "boiling_point_K": 2744,
+    "density_g_cm3": 1.85,
+    "second_ionization_eV": 18.21,
+    "metallic_radius_pm": 112
+  },
+  "5": {
+    "atomic_number": 5,
+    "symbol": "B",
+    "name": "Boron",
+    "atomic_mass": 10.81,
+    "electronegativity": 2.04,
+    "ionization_energy_eV": 8.298,
+    "electron_affinity_eV": 0.277,
+    "atomic_radius_pm": 87,
+    "covalent_radius_pm": 84,
+    "vdw_radius_pm": 192,
+    "category": "metalloid",
+    "period": 2,
+    "group": 13,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      255,
+      181,
+      181
+    ],
+    "electron_config": [
+      2,
+      3
+    ],
+    "phase": "solid",
+    "melting_point_K": 2349,
+    "boiling_point_K": 4200,
+    "density_g_cm3": 2.34,
+    "second_ionization_eV": 25.15,
+    "metallic_radius_pm": null
+  },
+  "6": {
+    "atomic_number": 6,
+    "symbol": "C",
+    "name": "Carbon",
+    "atomic_mass": 12.011,
+    "electronegativity": 2.55,
+    "ionization_energy_eV": 11.26,
+    "electron_affinity_eV": 1.263,
+    "atomic_radius_pm": 77,
+    "covalent_radius_pm": 76,
+    "vdw_radius_pm": 170,
+    "category": "nonmetal",
+    "period": 2,
+    "group": 14,
+    "valence_electrons": 4,
+    "oxidation_states": [
+      -4,
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "color_rgb": [
+      144,
+      144,
+      144
+    ],
+    "electron_config": [
+      2,
+      4
+    ],
+    "phase": "solid",
+    "melting_point_K": 3823,
+    "boiling_point_K": 4098,
+    "density_g_cm3": 2.267,
+    "second_ionization_eV": 24.38,
+    "metallic_radius_pm": null
+  },
+  "7": {
+    "atomic_number": 7,
+    "symbol": "N",
+    "name": "Nitrogen",
+    "atomic_mass": 14.007,
+    "electronegativity": 3.04,
+    "ionization_energy_eV": 14.534,
+    "electron_affinity_eV": -0.07,
+    "atomic_radius_pm": 75,
+    "covalent_radius_pm": 71,
+    "vdw_radius_pm": 155,
+    "category": "nonmetal",
+    "period": 2,
+    "group": 15,
+    "valence_electrons": 5,
+    "oxidation_states": [
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "color_rgb": [
+      48,
+      80,
+      248
+    ],
+    "electron_config": [
+      2,
+      5
+    ],
+    "phase": "gas",
+    "melting_point_K": 63.15,
+    "boiling_point_K": 77.36,
+    "density_g_cm3": 0.001251,
+    "second_ionization_eV": 29.6,
+    "metallic_radius_pm": null
+  },
+  "8": {
+    "atomic_number": 8,
+    "symbol": "O",
+    "name": "Oxygen",
+    "atomic_mass": 15.999,
+    "electronegativity": 3.44,
+    "ionization_energy_eV": 13.618,
+    "electron_affinity_eV": 1.461,
+    "atomic_radius_pm": 73,
+    "covalent_radius_pm": 66,
+    "vdw_radius_pm": 152,
+    "category": "nonmetal",
+    "period": 2,
+    "group": 16,
+    "valence_electrons": 6,
+    "oxidation_states": [
+      -2,
+      -1,
+      1,
+      2
+    ],
+    "color_rgb": [
+      255,
+      13,
+      13
+    ],
+    "electron_config": [
+      2,
+      6
+    ],
+    "phase": "gas",
+    "melting_point_K": 54.36,
+    "boiling_point_K": 90.2,
+    "density_g_cm3": 0.001429,
+    "second_ionization_eV": 35.12,
+    "metallic_radius_pm": null
+  },
+  "9": {
+    "atomic_number": 9,
+    "symbol": "F",
+    "name": "Fluorine",
+    "atomic_mass": 18.998,
+    "electronegativity": 3.98,
+    "ionization_energy_eV": 17.422,
+    "electron_affinity_eV": 3.401,
+    "atomic_radius_pm": 71,
+    "covalent_radius_pm": 64,
+    "vdw_radius_pm": 147,
+    "category": "halogen",
+    "period": 2,
+    "group": 17,
+    "valence_electrons": 7,
+    "oxidation_states": [
+      -1
+    ],
+    "color_rgb": [
+      144,
+      224,
+      80
+    ],
+    "electron_config": [
+      2,
+      7
+    ],
+    "phase": "gas",
+    "melting_point_K": 53.53,
+    "boiling_point_K": 85.03,
+    "density_g_cm3": 0.001696,
+    "second_ionization_eV": 34.97,
+    "metallic_radius_pm": null
+  },
+  "10": {
+    "atomic_number": 10,
+    "symbol": "Ne",
+    "name": "Neon",
+    "atomic_mass": 20.18,
+    "electronegativity": 0,
+    "ionization_energy_eV": 21.565,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 69,
+    "covalent_radius_pm": 58,
+    "vdw_radius_pm": 154,
+    "category": "noble_gas",
+    "period": 2,
+    "group": 18,
+    "valence_electrons": 8,
+    "oxidation_states": [
+      0
+    ],
+    "color_rgb": [
+      179,
+      227,
+      245
+    ],
+    "electron_config": [
+      2,
+      8
+    ],
+    "phase": "gas",
+    "melting_point_K": 24.56,
+    "boiling_point_K": 27.07,
+    "density_g_cm3": 0.0009,
+    "second_ionization_eV": 41.08,
+    "metallic_radius_pm": null
+  },
+  "11": {
+    "atomic_number": 11,
+    "symbol": "Na",
+    "name": "Sodium",
+    "atomic_mass": 22.99,
+    "electronegativity": 0.93,
+    "ionization_energy_eV": 5.139,
+    "electron_affinity_eV": 0.548,
+    "atomic_radius_pm": 190,
+    "covalent_radius_pm": 166,
+    "vdw_radius_pm": 227,
+    "category": "alkali_metal",
+    "period": 3,
+    "group": 1,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1
+    ],
+    "color_rgb": [
+      171,
+      92,
+      242
+    ],
+    "electron_config": [
+      2,
+      8,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 370.87,
+    "boiling_point_K": 1156,
+    "density_g_cm3": 0.971,
+    "second_ionization_eV": 47.29,
+    "metallic_radius_pm": 186
+  },
+  "12": {
+    "atomic_number": 12,
+    "symbol": "Mg",
+    "name": "Magnesium",
+    "atomic_mass": 24.305,
+    "electronegativity": 1.31,
+    "ionization_energy_eV": 7.646,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 145,
+    "covalent_radius_pm": 141,
+    "vdw_radius_pm": 173,
+    "category": "alkaline_earth",
+    "period": 3,
+    "group": 2,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      138,
+      255,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 923,
+    "boiling_point_K": 1363,
+    "density_g_cm3": 1.738,
+    "second_ionization_eV": 15.04,
+    "metallic_radius_pm": 160
+  },
+  "13": {
+    "atomic_number": 13,
+    "symbol": "Al",
+    "name": "Aluminum",
+    "atomic_mass": 26.982,
+    "electronegativity": 1.61,
+    "ionization_energy_eV": 5.986,
+    "electron_affinity_eV": 0.441,
+    "atomic_radius_pm": 118,
+    "covalent_radius_pm": 121,
+    "vdw_radius_pm": 184,
+    "category": "post_transition_metal",
+    "period": 3,
+    "group": 13,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      191,
+      166,
+      166
+    ],
+    "electron_config": [
+      2,
+      8,
+      3
+    ],
+    "phase": "solid",
+    "melting_point_K": 933.47,
+    "boiling_point_K": 2792,
+    "density_g_cm3": 2.7,
+    "second_ionization_eV": 18.83,
+    "metallic_radius_pm": 143
+  },
+  "14": {
+    "atomic_number": 14,
+    "symbol": "Si",
+    "name": "Silicon",
+    "atomic_mass": 28.086,
+    "electronegativity": 1.9,
+    "ionization_energy_eV": 8.152,
+    "electron_affinity_eV": 1.385,
+    "atomic_radius_pm": 111,
+    "covalent_radius_pm": 111,
+    "vdw_radius_pm": 210,
+    "category": "metalloid",
+    "period": 3,
+    "group": 14,
+    "valence_electrons": 4,
+    "oxidation_states": [
+      -4,
+      4
+    ],
+    "color_rgb": [
+      240,
+      200,
+      160
+    ],
+    "electron_config": [
+      2,
+      8,
+      4
+    ],
+    "phase": "solid",
+    "melting_point_K": 1687,
+    "boiling_point_K": 3538,
+    "density_g_cm3": 2.3296,
+    "second_ionization_eV": 16.35,
+    "metallic_radius_pm": null
+  },
+  "15": {
+    "atomic_number": 15,
+    "symbol": "P",
+    "name": "Phosphorus",
+    "atomic_mass": 30.974,
+    "electronegativity": 2.19,
+    "ionization_energy_eV": 10.487,
+    "electron_affinity_eV": 0.746,
+    "atomic_radius_pm": 106,
+    "covalent_radius_pm": 107,
+    "vdw_radius_pm": 180,
+    "category": "nonmetal",
+    "period": 3,
+    "group": 15,
+    "valence_electrons": 5,
+    "oxidation_states": [
+      -3,
+      3,
+      5
+    ],
+    "color_rgb": [
+      255,
+      128,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      5
+    ],
+    "phase": "solid",
+    "melting_point_K": 317.3,
+    "boiling_point_K": 553.65,
+    "density_g_cm3": 1.82,
+    "second_ionization_eV": 19.77,
+    "metallic_radius_pm": null
+  },
+  "16": {
+    "atomic_number": 16,
+    "symbol": "S",
+    "name": "Sulfur",
+    "atomic_mass": 32.065,
+    "electronegativity": 2.58,
+    "ionization_energy_eV": 10.36,
+    "electron_affinity_eV": 2.077,
+    "atomic_radius_pm": 102,
+    "covalent_radius_pm": 105,
+    "vdw_radius_pm": 180,
+    "category": "nonmetal",
+    "period": 3,
+    "group": 16,
+    "valence_electrons": 6,
+    "oxidation_states": [
+      -2,
+      2,
+      4,
+      6
+    ],
+    "color_rgb": [
+      255,
+      255,
+      48
+    ],
+    "electron_config": [
+      2,
+      8,
+      6
+    ],
+    "phase": "solid",
+    "melting_point_K": 388.36,
+    "boiling_point_K": 717.87,
+    "density_g_cm3": 2.067,
+    "second_ionization_eV": 23.34,
+    "metallic_radius_pm": null
+  },
+  "17": {
+    "atomic_number": 17,
+    "symbol": "Cl",
+    "name": "Chlorine",
+    "atomic_mass": 35.453,
+    "electronegativity": 3.16,
+    "ionization_energy_eV": 12.968,
+    "electron_affinity_eV": 3.613,
+    "atomic_radius_pm": 99,
+    "covalent_radius_pm": 102,
+    "vdw_radius_pm": 175,
+    "category": "halogen",
+    "period": 3,
+    "group": 17,
+    "valence_electrons": 7,
+    "oxidation_states": [
+      -1,
+      1,
+      3,
+      5,
+      7
+    ],
+    "color_rgb": [
+      31,
+      240,
+      31
+    ],
+    "electron_config": [
+      2,
+      8,
+      7
+    ],
+    "phase": "gas",
+    "melting_point_K": 171.6,
+    "boiling_point_K": 239.11,
+    "density_g_cm3": 0.003214,
+    "second_ionization_eV": 23.81,
+    "metallic_radius_pm": null
+  },
+  "18": {
+    "atomic_number": 18,
+    "symbol": "Ar",
+    "name": "Argon",
+    "atomic_mass": 39.948,
+    "electronegativity": 0,
+    "ionization_energy_eV": 15.76,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 97,
+    "covalent_radius_pm": 106,
+    "vdw_radius_pm": 188,
+    "category": "noble_gas",
+    "period": 3,
+    "group": 18,
+    "valence_electrons": 8,
+    "oxidation_states": [
+      0
+    ],
+    "color_rgb": [
+      128,
+      209,
+      227
+    ],
+    "electron_config": [
+      2,
+      8,
+      8
+    ],
+    "phase": "gas",
+    "melting_point_K": 83.8,
+    "boiling_point_K": 87.3,
+    "density_g_cm3": 0.001784,
+    "second_ionization_eV": 27.63,
+    "metallic_radius_pm": null
+  },
+  "19": {
+    "atomic_number": 19,
+    "symbol": "K",
+    "name": "Potassium",
+    "atomic_mass": 39.098,
+    "electronegativity": 0.82,
+    "ionization_energy_eV": 4.341,
+    "electron_affinity_eV": 0.501,
+    "atomic_radius_pm": 243,
+    "covalent_radius_pm": 203,
+    "vdw_radius_pm": 275,
+    "category": "alkali_metal",
+    "period": 4,
+    "group": 1,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1
+    ],
+    "color_rgb": [
+      143,
+      64,
+      212
+    ],
+    "electron_config": [
+      2,
+      8,
+      8,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 336.53,
+    "boiling_point_K": 1032,
+    "density_g_cm3": 0.862,
+    "second_ionization_eV": 31.63,
+    "metallic_radius_pm": 227
+  },
+  "20": {
+    "atomic_number": 20,
+    "symbol": "Ca",
+    "name": "Calcium",
+    "atomic_mass": 40.078,
+    "electronegativity": 1.0,
+    "ionization_energy_eV": 6.113,
+    "electron_affinity_eV": 0.024,
+    "atomic_radius_pm": 194,
+    "covalent_radius_pm": 176,
+    "vdw_radius_pm": 231,
+    "category": "alkaline_earth",
+    "period": 4,
+    "group": 2,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      61,
+      255,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1115,
+    "boiling_point_K": 1757,
+    "density_g_cm3": 1.54,
+    "second_ionization_eV": 11.87,
+    "metallic_radius_pm": 197
+  },
+  "21": {
+    "atomic_number": 21,
+    "symbol": "Sc",
+    "name": "Scandium",
+    "atomic_mass": 44.956,
+    "electronegativity": 1.36,
+    "ionization_energy_eV": 6.561,
+    "electron_affinity_eV": 0.188,
+    "atomic_radius_pm": 184,
+    "covalent_radius_pm": 170,
+    "vdw_radius_pm": 211,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      230,
+      230,
+      230
+    ],
+    "electron_config": [
+      2,
+      8,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1814,
+    "boiling_point_K": 3109,
+    "density_g_cm3": 2.989,
+    "second_ionization_eV": 12.8,
+    "metallic_radius_pm": 162
+  },
+  "22": {
+    "atomic_number": 22,
+    "symbol": "Ti",
+    "name": "Titanium",
+    "atomic_mass": 47.867,
+    "electronegativity": 1.54,
+    "ionization_energy_eV": 6.828,
+    "electron_affinity_eV": 0.084,
+    "atomic_radius_pm": 176,
+    "covalent_radius_pm": 160,
+    "vdw_radius_pm": 187,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 4,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3,
+      4
+    ],
+    "color_rgb": [
+      191,
+      194,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      10,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1941,
+    "boiling_point_K": 3560,
+    "density_g_cm3": 4.506,
+    "second_ionization_eV": 13.58,
+    "metallic_radius_pm": 147
+  },
+  "23": {
+    "atomic_number": 23,
+    "symbol": "V",
+    "name": "Vanadium",
+    "atomic_mass": 50.942,
+    "electronegativity": 1.63,
+    "ionization_energy_eV": 6.746,
+    "electron_affinity_eV": 0.525,
+    "atomic_radius_pm": 171,
+    "covalent_radius_pm": 153,
+    "vdw_radius_pm": 179,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 5,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "color_rgb": [
+      166,
+      166,
+      171
+    ],
+    "electron_config": [
+      2,
+      8,
+      11,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 2183,
+    "boiling_point_K": 3680,
+    "density_g_cm3": 6.11,
+    "second_ionization_eV": 14.66,
+    "metallic_radius_pm": 134
+  },
+  "24": {
+    "atomic_number": 24,
+    "symbol": "Cr",
+    "name": "Chromium",
+    "atomic_mass": 51.996,
+    "electronegativity": 1.66,
+    "ionization_energy_eV": 6.767,
+    "electron_affinity_eV": 0.666,
+    "atomic_radius_pm": 166,
+    "covalent_radius_pm": 139,
+    "vdw_radius_pm": 189,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 6,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      2,
+      3,
+      6
+    ],
+    "color_rgb": [
+      138,
+      153,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      13,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 2180,
+    "boiling_point_K": 2944,
+    "density_g_cm3": 7.15,
+    "second_ionization_eV": 16.49,
+    "metallic_radius_pm": 128
+  },
+  "25": {
+    "atomic_number": 25,
+    "symbol": "Mn",
+    "name": "Manganese",
+    "atomic_mass": 54.938,
+    "electronegativity": 1.55,
+    "ionization_energy_eV": 7.434,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 161,
+    "covalent_radius_pm": 139,
+    "vdw_radius_pm": 197,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 7,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3,
+      4,
+      7
+    ],
+    "color_rgb": [
+      156,
+      122,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      13,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1519,
+    "boiling_point_K": 2334,
+    "density_g_cm3": 7.44,
+    "second_ionization_eV": 15.64,
+    "metallic_radius_pm": 127
+  },
+  "26": {
+    "atomic_number": 26,
+    "symbol": "Fe",
+    "name": "Iron",
+    "atomic_mass": 55.845,
+    "electronegativity": 1.83,
+    "ionization_energy_eV": 7.902,
+    "electron_affinity_eV": 0.151,
+    "atomic_radius_pm": 156,
+    "covalent_radius_pm": 132,
+    "vdw_radius_pm": 194,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 8,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3
+    ],
+    "color_rgb": [
+      224,
+      102,
+      51
+    ],
+    "electron_config": [
+      2,
+      8,
+      14,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1811,
+    "boiling_point_K": 3134,
+    "density_g_cm3": 7.874,
+    "second_ionization_eV": 16.19,
+    "metallic_radius_pm": 126
+  },
+  "27": {
+    "atomic_number": 27,
+    "symbol": "Co",
+    "name": "Cobalt",
+    "atomic_mass": 58.933,
+    "electronegativity": 1.88,
+    "ionization_energy_eV": 7.881,
+    "electron_affinity_eV": 0.662,
+    "atomic_radius_pm": 152,
+    "covalent_radius_pm": 126,
+    "vdw_radius_pm": 192,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 9,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3
+    ],
+    "color_rgb": [
+      240,
+      144,
+      160
+    ],
+    "electron_config": [
+      2,
+      8,
+      15,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1768,
+    "boiling_point_K": 3200,
+    "density_g_cm3": 8.9,
+    "second_ionization_eV": 17.08,
+    "metallic_radius_pm": 125
+  },
+  "28": {
+    "atomic_number": 28,
+    "symbol": "Ni",
+    "name": "Nickel",
+    "atomic_mass": 58.693,
+    "electronegativity": 1.91,
+    "ionization_energy_eV": 7.64,
+    "electron_affinity_eV": 1.156,
+    "atomic_radius_pm": 149,
+    "covalent_radius_pm": 124,
+    "vdw_radius_pm": 163,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 10,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3
+    ],
+    "color_rgb": [
+      80,
+      208,
+      80
+    ],
+    "electron_config": [
+      2,
+      8,
+      16,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1728,
+    "boiling_point_K": 3186,
+    "density_g_cm3": 8.912,
+    "second_ionization_eV": 18.17,
+    "metallic_radius_pm": 124
+  },
+  "29": {
+    "atomic_number": 29,
+    "symbol": "Cu",
+    "name": "Copper",
+    "atomic_mass": 63.546,
+    "electronegativity": 1.9,
+    "ionization_energy_eV": 7.726,
+    "electron_affinity_eV": 1.235,
+    "atomic_radius_pm": 145,
+    "covalent_radius_pm": 132,
+    "vdw_radius_pm": 140,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 11,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1,
+      2
+    ],
+    "color_rgb": [
+      200,
+      128,
+      51
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 1357.77,
+    "boiling_point_K": 2835,
+    "density_g_cm3": 8.96,
+    "second_ionization_eV": 20.29,
+    "metallic_radius_pm": 128
+  },
+  "30": {
+    "atomic_number": 30,
+    "symbol": "Zn",
+    "name": "Zinc",
+    "atomic_mass": 65.38,
+    "electronegativity": 1.65,
+    "ionization_energy_eV": 9.394,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 142,
+    "covalent_radius_pm": 122,
+    "vdw_radius_pm": 139,
+    "category": "transition_metal",
+    "period": 4,
+    "group": 12,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      125,
+      128,
+      176
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 692.68,
+    "boiling_point_K": 1180,
+    "density_g_cm3": 7.134,
+    "second_ionization_eV": 17.96,
+    "metallic_radius_pm": 134
+  },
+  "31": {
+    "atomic_number": 31,
+    "symbol": "Ga",
+    "name": "Gallium",
+    "atomic_mass": 69.723,
+    "electronegativity": 1.81,
+    "ionization_energy_eV": 5.999,
+    "electron_affinity_eV": 0.3,
+    "atomic_radius_pm": 136,
+    "covalent_radius_pm": 122,
+    "vdw_radius_pm": 187,
+    "category": "post_transition_metal",
+    "period": 4,
+    "group": 13,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      194,
+      143,
+      143
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      3
+    ],
+    "phase": "solid",
+    "melting_point_K": 302.91,
+    "boiling_point_K": 2477,
+    "density_g_cm3": 5.907,
+    "second_ionization_eV": 20.51,
+    "metallic_radius_pm": 135
+  },
+  "32": {
+    "atomic_number": 32,
+    "symbol": "Ge",
+    "name": "Germanium",
+    "atomic_mass": 72.64,
+    "electronegativity": 2.01,
+    "ionization_energy_eV": 7.9,
+    "electron_affinity_eV": 1.233,
+    "atomic_radius_pm": 125,
+    "covalent_radius_pm": 120,
+    "vdw_radius_pm": 211,
+    "category": "metalloid",
+    "period": 4,
+    "group": 14,
+    "valence_electrons": 4,
+    "oxidation_states": [
+      4
+    ],
+    "color_rgb": [
+      102,
+      143,
+      143
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      4
+    ],
+    "phase": "solid",
+    "melting_point_K": 1211.4,
+    "boiling_point_K": 3106,
+    "density_g_cm3": 5.323,
+    "second_ionization_eV": 15.93,
+    "metallic_radius_pm": null
+  },
+  "33": {
+    "atomic_number": 33,
+    "symbol": "As",
+    "name": "Arsenic",
+    "atomic_mass": 74.922,
+    "electronegativity": 2.18,
+    "ionization_energy_eV": 9.789,
+    "electron_affinity_eV": 0.814,
+    "atomic_radius_pm": 114,
+    "covalent_radius_pm": 119,
+    "vdw_radius_pm": 185,
+    "category": "metalloid",
+    "period": 4,
+    "group": 15,
+    "valence_electrons": 5,
+    "oxidation_states": [
+      -3,
+      3,
+      5
+    ],
+    "color_rgb": [
+      189,
+      128,
+      227
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      5
+    ],
+    "phase": "solid",
+    "melting_point_K": 1090,
+    "boiling_point_K": 887,
+    "density_g_cm3": 5.776,
+    "second_ionization_eV": 18.63,
+    "metallic_radius_pm": null
+  },
+  "34": {
+    "atomic_number": 34,
+    "symbol": "Se",
+    "name": "Selenium",
+    "atomic_mass": 78.96,
+    "electronegativity": 2.55,
+    "ionization_energy_eV": 9.752,
+    "electron_affinity_eV": 2.021,
+    "atomic_radius_pm": 103,
+    "covalent_radius_pm": 120,
+    "vdw_radius_pm": 190,
+    "category": "nonmetal",
+    "period": 4,
+    "group": 16,
+    "valence_electrons": 6,
+    "oxidation_states": [
+      -2,
+      4,
+      6
+    ],
+    "color_rgb": [
+      255,
+      161,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      6
+    ],
+    "phase": "solid",
+    "melting_point_K": 494,
+    "boiling_point_K": 958,
+    "density_g_cm3": 4.809,
+    "second_ionization_eV": 21.19,
+    "metallic_radius_pm": null
+  },
+  "35": {
+    "atomic_number": 35,
+    "symbol": "Br",
+    "name": "Bromine",
+    "atomic_mass": 79.904,
+    "electronegativity": 2.96,
+    "ionization_energy_eV": 11.814,
+    "electron_affinity_eV": 3.364,
+    "atomic_radius_pm": 94,
+    "covalent_radius_pm": 120,
+    "vdw_radius_pm": 185,
+    "category": "halogen",
+    "period": 4,
+    "group": 17,
+    "valence_electrons": 7,
+    "oxidation_states": [
+      -1,
+      1,
+      3,
+      5
+    ],
+    "color_rgb": [
+      166,
+      41,
+      41
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      7
+    ],
+    "phase": "liquid",
+    "melting_point_K": 265.8,
+    "boiling_point_K": 332.0,
+    "density_g_cm3": 3.122,
+    "second_ionization_eV": 21.59,
+    "metallic_radius_pm": null
+  },
+  "36": {
+    "atomic_number": 36,
+    "symbol": "Kr",
+    "name": "Krypton",
+    "atomic_mass": 83.798,
+    "electronegativity": 3.0,
+    "ionization_energy_eV": 14.0,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 88,
+    "covalent_radius_pm": 116,
+    "vdw_radius_pm": 202,
+    "category": "noble_gas",
+    "period": 4,
+    "group": 18,
+    "valence_electrons": 8,
+    "oxidation_states": [
+      0,
+      2
+    ],
+    "color_rgb": [
+      92,
+      184,
+      209
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      8
+    ],
+    "phase": "gas",
+    "melting_point_K": 115.79,
+    "boiling_point_K": 119.93,
+    "density_g_cm3": 0.003733,
+    "second_ionization_eV": 24.36,
+    "metallic_radius_pm": null
+  },
+  "37": {
+    "atomic_number": 37,
+    "symbol": "Rb",
+    "name": "Rubidium",
+    "atomic_mass": 85.468,
+    "electronegativity": 0.82,
+    "ionization_energy_eV": 4.177,
+    "electron_affinity_eV": 0.486,
+    "atomic_radius_pm": 265,
+    "covalent_radius_pm": 220,
+    "vdw_radius_pm": 303,
+    "category": "alkali_metal",
+    "period": 5,
+    "group": 1,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1
+    ],
+    "color_rgb": [
+      112,
+      46,
+      176
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      8,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 312.46,
+    "boiling_point_K": 961,
+    "density_g_cm3": 1.532,
+    "second_ionization_eV": 27.28,
+    "metallic_radius_pm": 248
+  },
+  "38": {
+    "atomic_number": 38,
+    "symbol": "Sr",
+    "name": "Strontium",
+    "atomic_mass": 87.62,
+    "electronegativity": 0.95,
+    "ionization_energy_eV": 5.695,
+    "electron_affinity_eV": 0.052,
+    "atomic_radius_pm": 219,
+    "covalent_radius_pm": 195,
+    "vdw_radius_pm": 249,
+    "category": "alkaline_earth",
+    "period": 5,
+    "group": 2,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      0,
+      255,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1050,
+    "boiling_point_K": 1655,
+    "density_g_cm3": 2.64,
+    "second_ionization_eV": 11.03,
+    "metallic_radius_pm": 215
+  },
+  "39": {
+    "atomic_number": 39,
+    "symbol": "Y",
+    "name": "Yttrium",
+    "atomic_mass": 88.906,
+    "electronegativity": 1.22,
+    "ionization_energy_eV": 6.217,
+    "electron_affinity_eV": 0.307,
+    "atomic_radius_pm": 212,
+    "covalent_radius_pm": 190,
+    "vdw_radius_pm": 219,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      148,
+      255,
+      255
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1799,
+    "boiling_point_K": 3609,
+    "density_g_cm3": 4.469,
+    "second_ionization_eV": 12.24,
+    "metallic_radius_pm": 180
+  },
+  "40": {
+    "atomic_number": 40,
+    "symbol": "Zr",
+    "name": "Zirconium",
+    "atomic_mass": 91.224,
+    "electronegativity": 1.33,
+    "ionization_energy_eV": 6.634,
+    "electron_affinity_eV": 0.426,
+    "atomic_radius_pm": 206,
+    "covalent_radius_pm": 175,
+    "vdw_radius_pm": 186,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 4,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      4
+    ],
+    "color_rgb": [
+      148,
+      224,
+      224
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      10,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 2128,
+    "boiling_point_K": 4682,
+    "density_g_cm3": 6.506,
+    "second_ionization_eV": 13.13,
+    "metallic_radius_pm": 160
+  },
+  "41": {
+    "atomic_number": 41,
+    "symbol": "Nb",
+    "name": "Niobium",
+    "atomic_mass": 92.906,
+    "electronegativity": 1.6,
+    "ionization_energy_eV": 6.759,
+    "electron_affinity_eV": 0.893,
+    "atomic_radius_pm": 198,
+    "covalent_radius_pm": 164,
+    "vdw_radius_pm": 207,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 5,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      3,
+      5
+    ],
+    "color_rgb": [
+      115,
+      194,
+      201
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      12,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 2750,
+    "boiling_point_K": 5017,
+    "density_g_cm3": 8.57,
+    "second_ionization_eV": 14.32,
+    "metallic_radius_pm": 146
+  },
+  "42": {
+    "atomic_number": 42,
+    "symbol": "Mo",
+    "name": "Molybdenum",
+    "atomic_mass": 95.95,
+    "electronegativity": 2.16,
+    "ionization_energy_eV": 7.092,
+    "electron_affinity_eV": 0.746,
+    "atomic_radius_pm": 190,
+    "covalent_radius_pm": 154,
+    "vdw_radius_pm": 209,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 6,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      4,
+      6
+    ],
+    "color_rgb": [
+      84,
+      181,
+      181
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      13,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 2896,
+    "boiling_point_K": 4912,
+    "density_g_cm3": 10.22,
+    "second_ionization_eV": 16.16,
+    "metallic_radius_pm": 139
+  },
+  "43": {
+    "atomic_number": 43,
+    "symbol": "Tc",
+    "name": "Technetium",
+    "atomic_mass": 98.0,
+    "electronegativity": 1.9,
+    "ionization_energy_eV": 7.28,
+    "electron_affinity_eV": 0.55,
+    "atomic_radius_pm": 183,
+    "covalent_radius_pm": 147,
+    "vdw_radius_pm": 209,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 7,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      4,
+      7
+    ],
+    "color_rgb": [
+      59,
+      158,
+      158
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      13,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 2430,
+    "boiling_point_K": 4538,
+    "density_g_cm3": 11.5,
+    "second_ionization_eV": 15.26,
+    "metallic_radius_pm": 136
+  },
+  "44": {
+    "atomic_number": 44,
+    "symbol": "Ru",
+    "name": "Ruthenium",
+    "atomic_mass": 101.07,
+    "electronegativity": 2.2,
+    "ionization_energy_eV": 7.361,
+    "electron_affinity_eV": 1.05,
+    "atomic_radius_pm": 178,
+    "covalent_radius_pm": 146,
+    "vdw_radius_pm": 207,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 8,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      3,
+      4
+    ],
+    "color_rgb": [
+      36,
+      143,
+      143
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      15,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 2607,
+    "boiling_point_K": 4423,
+    "density_g_cm3": 12.37,
+    "second_ionization_eV": 16.76,
+    "metallic_radius_pm": 134
+  },
+  "45": {
+    "atomic_number": 45,
+    "symbol": "Rh",
+    "name": "Rhodium",
+    "atomic_mass": 102.906,
+    "electronegativity": 2.28,
+    "ionization_energy_eV": 7.459,
+    "electron_affinity_eV": 1.137,
+    "atomic_radius_pm": 173,
+    "covalent_radius_pm": 142,
+    "vdw_radius_pm": 195,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 9,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      10,
+      125,
+      140
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      16,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 2237,
+    "boiling_point_K": 3968,
+    "density_g_cm3": 12.41,
+    "second_ionization_eV": 18.08,
+    "metallic_radius_pm": 134
+  },
+  "46": {
+    "atomic_number": 46,
+    "symbol": "Pd",
+    "name": "Palladium",
+    "atomic_mass": 106.42,
+    "electronegativity": 2.2,
+    "ionization_energy_eV": 8.337,
+    "electron_affinity_eV": 0.562,
+    "atomic_radius_pm": 169,
+    "covalent_radius_pm": 139,
+    "vdw_radius_pm": 202,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 10,
+    "valence_electrons": 0,
+    "oxidation_states": [
+      2,
+      4
+    ],
+    "color_rgb": [
+      0,
+      105,
+      133
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      0
+    ],
+    "phase": "solid",
+    "melting_point_K": 1828.05,
+    "boiling_point_K": 3236,
+    "density_g_cm3": 12.02,
+    "second_ionization_eV": 19.43,
+    "metallic_radius_pm": 137
+  },
+  "47": {
+    "atomic_number": 47,
+    "symbol": "Ag",
+    "name": "Silver",
+    "atomic_mass": 107.868,
+    "electronegativity": 1.93,
+    "ionization_energy_eV": 7.576,
+    "electron_affinity_eV": 1.302,
+    "atomic_radius_pm": 165,
+    "covalent_radius_pm": 145,
+    "vdw_radius_pm": 172,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 11,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1
+    ],
+    "color_rgb": [
+      192,
+      192,
+      192
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 1234.93,
+    "boiling_point_K": 2435,
+    "density_g_cm3": 10.501,
+    "second_ionization_eV": 21.49,
+    "metallic_radius_pm": 144
+  },
+  "48": {
+    "atomic_number": 48,
+    "symbol": "Cd",
+    "name": "Cadmium",
+    "atomic_mass": 112.414,
+    "electronegativity": 1.69,
+    "ionization_energy_eV": 8.994,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 161,
+    "covalent_radius_pm": 144,
+    "vdw_radius_pm": 158,
+    "category": "transition_metal",
+    "period": 5,
+    "group": 12,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      255,
+      217,
+      143
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 594.22,
+    "boiling_point_K": 1040,
+    "density_g_cm3": 8.69,
+    "second_ionization_eV": 16.91,
+    "metallic_radius_pm": 151
+  },
+  "49": {
+    "atomic_number": 49,
+    "symbol": "In",
+    "name": "Indium",
+    "atomic_mass": 114.818,
+    "electronegativity": 1.78,
+    "ionization_energy_eV": 5.786,
+    "electron_affinity_eV": 0.3,
+    "atomic_radius_pm": 156,
+    "covalent_radius_pm": 142,
+    "vdw_radius_pm": 193,
+    "category": "post_transition_metal",
+    "period": 5,
+    "group": 13,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      166,
+      117,
+      115
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      3
+    ],
+    "phase": "solid",
+    "melting_point_K": 429.75,
+    "boiling_point_K": 2345,
+    "density_g_cm3": 7.31,
+    "second_ionization_eV": 18.87,
+    "metallic_radius_pm": 167
+  },
+  "50": {
+    "atomic_number": 50,
+    "symbol": "Sn",
+    "name": "Tin",
+    "atomic_mass": 118.71,
+    "electronegativity": 1.96,
+    "ionization_energy_eV": 7.344,
+    "electron_affinity_eV": 1.112,
+    "atomic_radius_pm": 145,
+    "covalent_radius_pm": 139,
+    "vdw_radius_pm": 217,
+    "category": "post_transition_metal",
+    "period": 5,
+    "group": 14,
+    "valence_electrons": 4,
+    "oxidation_states": [
+      -4,
+      2,
+      4
+    ],
+    "color_rgb": [
+      102,
+      128,
+      128
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      4
+    ],
+    "phase": "solid",
+    "melting_point_K": 505.08,
+    "boiling_point_K": 2875,
+    "density_g_cm3": 7.287,
+    "second_ionization_eV": 14.63,
+    "metallic_radius_pm": 162
+  },
+  "51": {
+    "atomic_number": 51,
+    "symbol": "Sb",
+    "name": "Antimony",
+    "atomic_mass": 121.76,
+    "electronegativity": 2.05,
+    "ionization_energy_eV": 8.608,
+    "electron_affinity_eV": 1.047,
+    "atomic_radius_pm": 133,
+    "covalent_radius_pm": 139,
+    "vdw_radius_pm": 206,
+    "category": "metalloid",
+    "period": 5,
+    "group": 15,
+    "valence_electrons": 5,
+    "oxidation_states": [
+      -3,
+      3,
+      5
+    ],
+    "color_rgb": [
+      158,
+      99,
+      181
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      5
+    ],
+    "phase": "solid",
+    "melting_point_K": 903.78,
+    "boiling_point_K": 1860,
+    "density_g_cm3": 6.685,
+    "second_ionization_eV": 16.63,
+    "metallic_radius_pm": null
+  },
+  "52": {
+    "atomic_number": 52,
+    "symbol": "Te",
+    "name": "Tellurium",
+    "atomic_mass": 127.6,
+    "electronegativity": 2.1,
+    "ionization_energy_eV": 9.01,
+    "electron_affinity_eV": 1.971,
+    "atomic_radius_pm": 123,
+    "covalent_radius_pm": 138,
+    "vdw_radius_pm": 206,
+    "category": "metalloid",
+    "period": 5,
+    "group": 16,
+    "valence_electrons": 6,
+    "oxidation_states": [
+      -2,
+      2,
+      4,
+      6
+    ],
+    "color_rgb": [
+      212,
+      122,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      6
+    ],
+    "phase": "solid",
+    "melting_point_K": 722.66,
+    "boiling_point_K": 1261,
+    "density_g_cm3": 6.232,
+    "second_ionization_eV": 18.6,
+    "metallic_radius_pm": null
+  },
+  "53": {
+    "atomic_number": 53,
+    "symbol": "I",
+    "name": "Iodine",
+    "atomic_mass": 126.904,
+    "electronegativity": 2.66,
+    "ionization_energy_eV": 10.451,
+    "electron_affinity_eV": 3.059,
+    "atomic_radius_pm": 115,
+    "covalent_radius_pm": 139,
+    "vdw_radius_pm": 198,
+    "category": "halogen",
+    "period": 5,
+    "group": 17,
+    "valence_electrons": 7,
+    "oxidation_states": [
+      -1,
+      1,
+      3,
+      5,
+      7
+    ],
+    "color_rgb": [
+      148,
+      0,
+      148
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      7
+    ],
+    "phase": "solid",
+    "melting_point_K": 386.85,
+    "boiling_point_K": 457.4,
+    "density_g_cm3": 4.93,
+    "second_ionization_eV": 19.13,
+    "metallic_radius_pm": null
+  },
+  "54": {
+    "atomic_number": 54,
+    "symbol": "Xe",
+    "name": "Xenon",
+    "atomic_mass": 131.293,
+    "electronegativity": 2.6,
+    "ionization_energy_eV": 12.13,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 108,
+    "covalent_radius_pm": 140,
+    "vdw_radius_pm": 216,
+    "category": "noble_gas",
+    "period": 5,
+    "group": 18,
+    "valence_electrons": 8,
+    "oxidation_states": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "color_rgb": [
+      66,
+      158,
+      176
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      8
+    ],
+    "phase": "gas",
+    "melting_point_K": 161.4,
+    "boiling_point_K": 165.03,
+    "density_g_cm3": 0.005887,
+    "second_ionization_eV": 20.98,
+    "metallic_radius_pm": null
+  },
+  "55": {
+    "atomic_number": 55,
+    "symbol": "Cs",
+    "name": "Cesium",
+    "atomic_mass": 132.905,
+    "electronegativity": 0.79,
+    "ionization_energy_eV": 3.894,
+    "electron_affinity_eV": 0.472,
+    "atomic_radius_pm": 298,
+    "covalent_radius_pm": 244,
+    "vdw_radius_pm": 343,
+    "category": "alkali_metal",
+    "period": 6,
+    "group": 1,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1
+    ],
+    "color_rgb": [
+      87,
+      23,
+      143
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 301.59,
+    "boiling_point_K": 944,
+    "density_g_cm3": 1.873,
+    "second_ionization_eV": 23.16,
+    "metallic_radius_pm": 265
+  },
+  "56": {
+    "atomic_number": 56,
+    "symbol": "Ba",
+    "name": "Barium",
+    "atomic_mass": 137.327,
+    "electronegativity": 0.89,
+    "ionization_energy_eV": 5.212,
+    "electron_affinity_eV": 0.145,
+    "atomic_radius_pm": 253,
+    "covalent_radius_pm": 215,
+    "vdw_radius_pm": 268,
+    "category": "alkaline_earth",
+    "period": 6,
+    "group": 2,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      0,
+      201,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1000,
+    "boiling_point_K": 2170,
+    "density_g_cm3": 3.594,
+    "second_ionization_eV": 10.0,
+    "metallic_radius_pm": 222
+  },
+  "57": {
+    "atomic_number": 57,
+    "symbol": "La",
+    "name": "Lanthanum",
+    "atomic_mass": 138.905,
+    "electronegativity": 1.1,
+    "ionization_energy_eV": 5.577,
+    "electron_affinity_eV": 0.47,
+    "atomic_radius_pm": 274,
+    "covalent_radius_pm": 207,
+    "vdw_radius_pm": 250,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      112,
+      212,
+      255
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      18,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1193,
+    "boiling_point_K": 3737,
+    "density_g_cm3": 6.145,
+    "second_ionization_eV": 11.06,
+    "metallic_radius_pm": 187
+  },
+  "58": {
+    "atomic_number": 58,
+    "symbol": "Ce",
+    "name": "Cerium",
+    "atomic_mass": 140.116,
+    "electronegativity": 1.12,
+    "ionization_energy_eV": 5.539,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 270,
+    "covalent_radius_pm": 204,
+    "vdw_radius_pm": 248,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3,
+      4
+    ],
+    "color_rgb": [
+      255,
+      255,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      19,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1068,
+    "boiling_point_K": 3716,
+    "density_g_cm3": 6.77,
+    "second_ionization_eV": 10.85,
+    "metallic_radius_pm": 182
+  },
+  "59": {
+    "atomic_number": 59,
+    "symbol": "Pr",
+    "name": "Praseodymium",
+    "atomic_mass": 140.908,
+    "electronegativity": 1.13,
+    "ionization_energy_eV": 5.473,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 267,
+    "covalent_radius_pm": 203,
+    "vdw_radius_pm": 247,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      212,
+      255,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      21,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1208,
+    "boiling_point_K": 3793,
+    "density_g_cm3": 6.773,
+    "second_ionization_eV": 10.55,
+    "metallic_radius_pm": 182
+  },
+  "60": {
+    "atomic_number": 60,
+    "symbol": "Nd",
+    "name": "Neodymium",
+    "atomic_mass": 144.242,
+    "electronegativity": 1.14,
+    "ionization_energy_eV": 5.525,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 264,
+    "covalent_radius_pm": 201,
+    "vdw_radius_pm": 206,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      199,
+      255,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      22,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1297,
+    "boiling_point_K": 3347,
+    "density_g_cm3": 7.008,
+    "second_ionization_eV": 10.73,
+    "metallic_radius_pm": 181
+  },
+  "61": {
+    "atomic_number": 61,
+    "symbol": "Pm",
+    "name": "Promethium",
+    "atomic_mass": 145.0,
+    "electronegativity": 1.13,
+    "ionization_energy_eV": 5.582,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 263,
+    "covalent_radius_pm": 199,
+    "vdw_radius_pm": 205,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      163,
+      255,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      23,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1315,
+    "boiling_point_K": 3273,
+    "density_g_cm3": 7.26,
+    "second_ionization_eV": 10.9,
+    "metallic_radius_pm": 183
+  },
+  "62": {
+    "atomic_number": 62,
+    "symbol": "Sm",
+    "name": "Samarium",
+    "atomic_mass": 150.36,
+    "electronegativity": 1.17,
+    "ionization_energy_eV": 5.644,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 262,
+    "covalent_radius_pm": 198,
+    "vdw_radius_pm": 238,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3
+    ],
+    "color_rgb": [
+      143,
+      255,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      24,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1345,
+    "boiling_point_K": 2067,
+    "density_g_cm3": 7.52,
+    "second_ionization_eV": 11.07,
+    "metallic_radius_pm": 180
+  },
+  "63": {
+    "atomic_number": 63,
+    "symbol": "Eu",
+    "name": "Europium",
+    "atomic_mass": 151.964,
+    "electronegativity": 1.2,
+    "ionization_energy_eV": 5.67,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 259,
+    "covalent_radius_pm": 198,
+    "vdw_radius_pm": 231,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3
+    ],
+    "color_rgb": [
+      97,
+      255,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      25,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1099,
+    "boiling_point_K": 1802,
+    "density_g_cm3": 5.243,
+    "second_ionization_eV": 11.24,
+    "metallic_radius_pm": 180
+  },
+  "64": {
+    "atomic_number": 64,
+    "symbol": "Gd",
+    "name": "Gadolinium",
+    "atomic_mass": 157.25,
+    "electronegativity": 1.2,
+    "ionization_energy_eV": 6.15,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 258,
+    "covalent_radius_pm": 196,
+    "vdw_radius_pm": 233,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      69,
+      255,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      25,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1585,
+    "boiling_point_K": 3546,
+    "density_g_cm3": 7.9,
+    "second_ionization_eV": 12.09,
+    "metallic_radius_pm": 180
+  },
+  "65": {
+    "atomic_number": 65,
+    "symbol": "Tb",
+    "name": "Terbium",
+    "atomic_mass": 158.925,
+    "electronegativity": 1.2,
+    "ionization_energy_eV": 5.864,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 257,
+    "covalent_radius_pm": 194,
+    "vdw_radius_pm": 225,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3,
+      4
+    ],
+    "color_rgb": [
+      48,
+      255,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      27,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1629,
+    "boiling_point_K": 3503,
+    "density_g_cm3": 8.23,
+    "second_ionization_eV": 11.52,
+    "metallic_radius_pm": 177
+  },
+  "66": {
+    "atomic_number": 66,
+    "symbol": "Dy",
+    "name": "Dysprosium",
+    "atomic_mass": 162.5,
+    "electronegativity": 1.22,
+    "ionization_energy_eV": 5.939,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 256,
+    "covalent_radius_pm": 192,
+    "vdw_radius_pm": 228,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      31,
+      255,
+      199
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      28,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1680,
+    "boiling_point_K": 2840,
+    "density_g_cm3": 8.55,
+    "second_ionization_eV": 11.67,
+    "metallic_radius_pm": 178
+  },
+  "67": {
+    "atomic_number": 67,
+    "symbol": "Ho",
+    "name": "Holmium",
+    "atomic_mass": 164.93,
+    "electronegativity": 1.23,
+    "ionization_energy_eV": 6.022,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 192,
+    "vdw_radius_pm": 226,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      0,
+      255,
+      156
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      29,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1734,
+    "boiling_point_K": 2993,
+    "density_g_cm3": 8.795,
+    "second_ionization_eV": 11.8,
+    "metallic_radius_pm": 176
+  },
+  "68": {
+    "atomic_number": 68,
+    "symbol": "Er",
+    "name": "Erbium",
+    "atomic_mass": 167.259,
+    "electronegativity": 1.24,
+    "ionization_energy_eV": 6.108,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 254,
+    "covalent_radius_pm": 189,
+    "vdw_radius_pm": 226,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      0,
+      230,
+      117
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      30,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1802,
+    "boiling_point_K": 3141,
+    "density_g_cm3": 9.066,
+    "second_ionization_eV": 11.93,
+    "metallic_radius_pm": 176
+  },
+  "69": {
+    "atomic_number": 69,
+    "symbol": "Tm",
+    "name": "Thulium",
+    "atomic_mass": 168.934,
+    "electronegativity": 1.25,
+    "ionization_energy_eV": 6.184,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 252,
+    "covalent_radius_pm": 190,
+    "vdw_radius_pm": 227,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      2,
+      3
+    ],
+    "color_rgb": [
+      0,
+      212,
+      82
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      31,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1818,
+    "boiling_point_K": 2223,
+    "density_g_cm3": 9.321,
+    "second_ionization_eV": 12.05,
+    "metallic_radius_pm": 176
+  },
+  "70": {
+    "atomic_number": 70,
+    "symbol": "Yb",
+    "name": "Ytterbium",
+    "atomic_mass": 173.045,
+    "electronegativity": 1.1,
+    "ionization_energy_eV": 6.254,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 251,
+    "covalent_radius_pm": 187,
+    "vdw_radius_pm": 242,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3
+    ],
+    "color_rgb": [
+      0,
+      191,
+      56
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1097,
+    "boiling_point_K": 1469,
+    "density_g_cm3": 6.9,
+    "second_ionization_eV": 12.18,
+    "metallic_radius_pm": 176
+  },
+  "71": {
+    "atomic_number": 71,
+    "symbol": "Lu",
+    "name": "Lutetium",
+    "atomic_mass": 174.967,
+    "electronegativity": 1.27,
+    "ionization_energy_eV": 5.426,
+    "electron_affinity_eV": 0.5,
+    "atomic_radius_pm": 248,
+    "covalent_radius_pm": 187,
+    "vdw_radius_pm": 221,
+    "category": "lanthanide",
+    "period": 6,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      0,
+      171,
+      36
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1925,
+    "boiling_point_K": 3675,
+    "density_g_cm3": 9.84,
+    "second_ionization_eV": 13.9,
+    "metallic_radius_pm": 174
+  },
+  "72": {
+    "atomic_number": 72,
+    "symbol": "Hf",
+    "name": "Hafnium",
+    "atomic_mass": 178.49,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 6.825,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 208,
+    "covalent_radius_pm": 175,
+    "vdw_radius_pm": 186,
+    "category": "transition_metal",
+    "period": 6,
+    "group": 4,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      4
+    ],
+    "color_rgb": [
+      77,
+      194,
+      255
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      10,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 2506,
+    "boiling_point_K": 4876,
+    "density_g_cm3": 13.31,
+    "second_ionization_eV": 15.0,
+    "metallic_radius_pm": 159
+  },
+  "73": {
+    "atomic_number": 73,
+    "symbol": "Ta",
+    "name": "Tantalum",
+    "atomic_mass": 180.948,
+    "electronegativity": 1.5,
+    "ionization_energy_eV": 7.55,
+    "electron_affinity_eV": 0.322,
+    "atomic_radius_pm": 200,
+    "covalent_radius_pm": 170,
+    "vdw_radius_pm": 217,
+    "category": "transition_metal",
+    "period": 6,
+    "group": 5,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      5
+    ],
+    "color_rgb": [
+      77,
+      166,
+      255
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      11,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 3290,
+    "boiling_point_K": 5731,
+    "density_g_cm3": 16.654,
+    "second_ionization_eV": 16.0,
+    "metallic_radius_pm": 146
+  },
+  "74": {
+    "atomic_number": 74,
+    "symbol": "W",
+    "name": "Tungsten",
+    "atomic_mass": 183.84,
+    "electronegativity": 2.36,
+    "ionization_energy_eV": 7.864,
+    "electron_affinity_eV": 0.816,
+    "atomic_radius_pm": 193,
+    "covalent_radius_pm": 162,
+    "vdw_radius_pm": 210,
+    "category": "transition_metal",
+    "period": 6,
+    "group": 6,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      4,
+      6
+    ],
+    "color_rgb": [
+      38,
+      102,
+      150
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      12,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 3695,
+    "boiling_point_K": 5828,
+    "density_g_cm3": 19.25,
+    "second_ionization_eV": 16.0,
+    "metallic_radius_pm": 139
+  },
+  "75": {
+    "atomic_number": 75,
+    "symbol": "Re",
+    "name": "Rhenium",
+    "atomic_mass": 186.207,
+    "electronegativity": 1.9,
+    "ionization_energy_eV": 7.833,
+    "electron_affinity_eV": 0.15,
+    "atomic_radius_pm": 188,
+    "covalent_radius_pm": 151,
+    "vdw_radius_pm": 217,
+    "category": "transition_metal",
+    "period": 6,
+    "group": 7,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      4,
+      7
+    ],
+    "color_rgb": [
+      38,
+      125,
+      171
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      13,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 3459,
+    "boiling_point_K": 5869,
+    "density_g_cm3": 21.02,
+    "second_ionization_eV": 16.6,
+    "metallic_radius_pm": 137
+  },
+  "76": {
+    "atomic_number": 76,
+    "symbol": "Os",
+    "name": "Osmium",
+    "atomic_mass": 190.23,
+    "electronegativity": 2.2,
+    "ionization_energy_eV": 8.438,
+    "electron_affinity_eV": 1.1,
+    "atomic_radius_pm": 185,
+    "covalent_radius_pm": 144,
+    "vdw_radius_pm": 216,
+    "category": "transition_metal",
+    "period": 6,
+    "group": 8,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      4
+    ],
+    "color_rgb": [
+      38,
+      102,
+      150
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      14,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 3306,
+    "boiling_point_K": 5285,
+    "density_g_cm3": 22.587,
+    "second_ionization_eV": 17.0,
+    "metallic_radius_pm": 135
+  },
+  "77": {
+    "atomic_number": 77,
+    "symbol": "Ir",
+    "name": "Iridium",
+    "atomic_mass": 192.217,
+    "electronegativity": 2.2,
+    "ionization_energy_eV": 8.967,
+    "electron_affinity_eV": 1.565,
+    "atomic_radius_pm": 180,
+    "covalent_radius_pm": 141,
+    "vdw_radius_pm": 202,
+    "category": "transition_metal",
+    "period": 6,
+    "group": 9,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      3,
+      4
+    ],
+    "color_rgb": [
+      23,
+      84,
+      135
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      15,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 2719,
+    "boiling_point_K": 4701,
+    "density_g_cm3": 22.56,
+    "second_ionization_eV": 17.0,
+    "metallic_radius_pm": 136
+  },
+  "78": {
+    "atomic_number": 78,
+    "symbol": "Pt",
+    "name": "Platinum",
+    "atomic_mass": 195.084,
+    "electronegativity": 2.28,
+    "ionization_energy_eV": 8.959,
+    "electron_affinity_eV": 2.128,
+    "atomic_radius_pm": 177,
+    "covalent_radius_pm": 136,
+    "vdw_radius_pm": 175,
+    "category": "transition_metal",
+    "period": 6,
+    "group": 10,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      2,
+      4
+    ],
+    "color_rgb": [
+      208,
+      208,
+      224
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      17,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 2041.4,
+    "boiling_point_K": 4098,
+    "density_g_cm3": 21.46,
+    "second_ionization_eV": 18.56,
+    "metallic_radius_pm": 139
+  },
+  "79": {
+    "atomic_number": 79,
+    "symbol": "Au",
+    "name": "Gold",
+    "atomic_mass": 196.967,
+    "electronegativity": 2.54,
+    "ionization_energy_eV": 9.226,
+    "electron_affinity_eV": 2.309,
+    "atomic_radius_pm": 174,
+    "covalent_radius_pm": 136,
+    "vdw_radius_pm": 166,
+    "category": "transition_metal",
+    "period": 6,
+    "group": 11,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1,
+      3
+    ],
+    "color_rgb": [
+      255,
+      209,
+      35
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 1337.33,
+    "boiling_point_K": 3129,
+    "density_g_cm3": 19.282,
+    "second_ionization_eV": 20.5,
+    "metallic_radius_pm": 144
+  },
+  "80": {
+    "atomic_number": 80,
+    "symbol": "Hg",
+    "name": "Mercury",
+    "atomic_mass": 200.592,
+    "electronegativity": 2.0,
+    "ionization_energy_eV": 10.438,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 171,
+    "covalent_radius_pm": 132,
+    "vdw_radius_pm": 155,
+    "category": "transition_metal",
+    "period": 6,
+    "group": 12,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      1,
+      2
+    ],
+    "color_rgb": [
+      184,
+      184,
+      208
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      2
+    ],
+    "phase": "liquid",
+    "melting_point_K": 234.43,
+    "boiling_point_K": 629.88,
+    "density_g_cm3": 13.534,
+    "second_ionization_eV": 18.76,
+    "metallic_radius_pm": 151
+  },
+  "81": {
+    "atomic_number": 81,
+    "symbol": "Tl",
+    "name": "Thallium",
+    "atomic_mass": 204.38,
+    "electronegativity": 1.62,
+    "ionization_energy_eV": 6.108,
+    "electron_affinity_eV": 0.2,
+    "atomic_radius_pm": 156,
+    "covalent_radius_pm": 145,
+    "vdw_radius_pm": 196,
+    "category": "post_transition_metal",
+    "period": 6,
+    "group": 13,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      1,
+      3
+    ],
+    "color_rgb": [
+      166,
+      84,
+      77
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      3
+    ],
+    "phase": "solid",
+    "melting_point_K": 577,
+    "boiling_point_K": 1746,
+    "density_g_cm3": 11.85,
+    "second_ionization_eV": 20.43,
+    "metallic_radius_pm": 170
+  },
+  "82": {
+    "atomic_number": 82,
+    "symbol": "Pb",
+    "name": "Lead",
+    "atomic_mass": 207.2,
+    "electronegativity": 2.33,
+    "ionization_energy_eV": 7.417,
+    "electron_affinity_eV": 0.364,
+    "atomic_radius_pm": 154,
+    "covalent_radius_pm": 146,
+    "vdw_radius_pm": 202,
+    "category": "post_transition_metal",
+    "period": 6,
+    "group": 14,
+    "valence_electrons": 4,
+    "oxidation_states": [
+      2,
+      4
+    ],
+    "color_rgb": [
+      87,
+      89,
+      97
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      4
+    ],
+    "phase": "solid",
+    "melting_point_K": 600.61,
+    "boiling_point_K": 2022,
+    "density_g_cm3": 11.342,
+    "second_ionization_eV": 15.03,
+    "metallic_radius_pm": 175
+  },
+  "83": {
+    "atomic_number": 83,
+    "symbol": "Bi",
+    "name": "Bismuth",
+    "atomic_mass": 208.98,
+    "electronegativity": 2.02,
+    "ionization_energy_eV": 7.286,
+    "electron_affinity_eV": 0.946,
+    "atomic_radius_pm": 143,
+    "covalent_radius_pm": 148,
+    "vdw_radius_pm": 207,
+    "category": "post_transition_metal",
+    "period": 6,
+    "group": 15,
+    "valence_electrons": 5,
+    "oxidation_states": [
+      3,
+      5
+    ],
+    "color_rgb": [
+      158,
+      79,
+      181
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      5
+    ],
+    "phase": "solid",
+    "melting_point_K": 544.55,
+    "boiling_point_K": 1837,
+    "density_g_cm3": 9.807,
+    "second_ionization_eV": 16.69,
+    "metallic_radius_pm": null
+  },
+  "84": {
+    "atomic_number": 84,
+    "symbol": "Po",
+    "name": "Polonium",
+    "atomic_mass": 209.0,
+    "electronegativity": 2.0,
+    "ionization_energy_eV": 8.414,
+    "electron_affinity_eV": 1.9,
+    "atomic_radius_pm": 135,
+    "covalent_radius_pm": 140,
+    "vdw_radius_pm": 197,
+    "category": "metalloid",
+    "period": 6,
+    "group": 16,
+    "valence_electrons": 6,
+    "oxidation_states": [
+      -2,
+      2,
+      4
+    ],
+    "color_rgb": [
+      171,
+      92,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      6
+    ],
+    "phase": "solid",
+    "melting_point_K": 527,
+    "boiling_point_K": 1235,
+    "density_g_cm3": 9.32,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "85": {
+    "atomic_number": 85,
+    "symbol": "At",
+    "name": "Astatine",
+    "atomic_mass": 210.0,
+    "electronegativity": 2.2,
+    "ionization_energy_eV": 9.318,
+    "electron_affinity_eV": 2.8,
+    "atomic_radius_pm": 127,
+    "covalent_radius_pm": 150,
+    "vdw_radius_pm": 202,
+    "category": "halogen",
+    "period": 6,
+    "group": 17,
+    "valence_electrons": 7,
+    "oxidation_states": [
+      -1,
+      1
+    ],
+    "color_rgb": [
+      117,
+      79,
+      69
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      7
+    ],
+    "phase": "solid",
+    "melting_point_K": 575,
+    "boiling_point_K": 610,
+    "density_g_cm3": 7.0,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "86": {
+    "atomic_number": 86,
+    "symbol": "Rn",
+    "name": "Radon",
+    "atomic_mass": 222.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 10.749,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 120,
+    "covalent_radius_pm": 150,
+    "vdw_radius_pm": 220,
+    "category": "noble_gas",
+    "period": 6,
+    "group": 18,
+    "valence_electrons": 8,
+    "oxidation_states": [
+      0,
+      2
+    ],
+    "color_rgb": [
+      66,
+      130,
+      150
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8
+    ],
+    "phase": "gas",
+    "melting_point_K": 202,
+    "boiling_point_K": 211.3,
+    "density_g_cm3": 0.00973,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "87": {
+    "atomic_number": 87,
+    "symbol": "Fr",
+    "name": "Francium",
+    "atomic_mass": 223.0,
+    "electronegativity": 0.7,
+    "ionization_energy_eV": 4.073,
+    "electron_affinity_eV": 0.47,
+    "atomic_radius_pm": 348,
+    "covalent_radius_pm": 260,
+    "vdw_radius_pm": 348,
+    "category": "alkali_metal",
+    "period": 7,
+    "group": 1,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1
+    ],
+    "color_rgb": [
+      66,
+      0,
+      102
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": 300,
+    "boiling_point_K": 950,
+    "density_g_cm3": 1.87,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "88": {
+    "atomic_number": 88,
+    "symbol": "Ra",
+    "name": "Radium",
+    "atomic_mass": 226.0,
+    "electronegativity": 0.9,
+    "ionization_energy_eV": 5.278,
+    "electron_affinity_eV": 0.1,
+    "atomic_radius_pm": 283,
+    "covalent_radius_pm": 221,
+    "vdw_radius_pm": 283,
+    "category": "alkaline_earth",
+    "period": 7,
+    "group": 2,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      0,
+      125,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 973,
+    "boiling_point_K": 2010,
+    "density_g_cm3": 5.5,
+    "second_ionization_eV": 10.15,
+    "metallic_radius_pm": null
+  },
+  "89": {
+    "atomic_number": 89,
+    "symbol": "Ac",
+    "name": "Actinium",
+    "atomic_mass": 227.0,
+    "electronegativity": 1.1,
+    "ionization_energy_eV": 5.17,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 260,
+    "covalent_radius_pm": 215,
+    "vdw_radius_pm": 250,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      112,
+      171,
+      250
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1323,
+    "boiling_point_K": 3471,
+    "density_g_cm3": 10.07,
+    "second_ionization_eV": 12.1,
+    "metallic_radius_pm": null
+  },
+  "90": {
+    "atomic_number": 90,
+    "symbol": "Th",
+    "name": "Thorium",
+    "atomic_mass": 232.038,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 6.307,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 237,
+    "covalent_radius_pm": 206,
+    "vdw_radius_pm": 240,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      4
+    ],
+    "color_rgb": [
+      0,
+      186,
+      255
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      10,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 2115,
+    "boiling_point_K": 5061,
+    "density_g_cm3": 11.72,
+    "second_ionization_eV": 11.5,
+    "metallic_radius_pm": 179
+  },
+  "91": {
+    "atomic_number": 91,
+    "symbol": "Pa",
+    "name": "Protactinium",
+    "atomic_mass": 231.036,
+    "electronegativity": 1.5,
+    "ionization_energy_eV": 5.89,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 243,
+    "covalent_radius_pm": 200,
+    "vdw_radius_pm": 243,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      4,
+      5
+    ],
+    "color_rgb": [
+      0,
+      161,
+      255
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      20,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1841,
+    "boiling_point_K": 4300,
+    "density_g_cm3": 15.37,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": 163
+  },
+  "92": {
+    "atomic_number": 92,
+    "symbol": "U",
+    "name": "Uranium",
+    "atomic_mass": 238.029,
+    "electronegativity": 1.38,
+    "ionization_energy_eV": 6.194,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 175,
+    "covalent_radius_pm": 196,
+    "vdw_radius_pm": 186,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "color_rgb": [
+      0,
+      143,
+      0
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      21,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1405.3,
+    "boiling_point_K": 4404,
+    "density_g_cm3": 18.95,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": 156
+  },
+  "93": {
+    "atomic_number": 93,
+    "symbol": "Np",
+    "name": "Neptunium",
+    "atomic_mass": 237.0,
+    "electronegativity": 1.36,
+    "ionization_energy_eV": 6.266,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 239,
+    "covalent_radius_pm": 190,
+    "vdw_radius_pm": 239,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "color_rgb": [
+      0,
+      128,
+      255
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      22,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 917,
+    "boiling_point_K": 4273,
+    "density_g_cm3": 20.45,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": 155
+  },
+  "94": {
+    "atomic_number": 94,
+    "symbol": "Pu",
+    "name": "Plutonium",
+    "atomic_mass": 244.0,
+    "electronegativity": 1.28,
+    "ionization_energy_eV": 6.026,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 243,
+    "covalent_radius_pm": 187,
+    "vdw_radius_pm": 243,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "color_rgb": [
+      0,
+      107,
+      255
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      24,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 912.5,
+    "boiling_point_K": 3501,
+    "density_g_cm3": 19.84,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": 159
+  },
+  "95": {
+    "atomic_number": 95,
+    "symbol": "Am",
+    "name": "Americium",
+    "atomic_mass": 243.0,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 5.974,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 244,
+    "covalent_radius_pm": 180,
+    "vdw_radius_pm": 244,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "color_rgb": [
+      84,
+      92,
+      242
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1449,
+    "boiling_point_K": 2880,
+    "density_g_cm3": 13.69,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": 173
+  },
+  "96": {
+    "atomic_number": 96,
+    "symbol": "Cm",
+    "name": "Curium",
+    "atomic_mass": 247.0,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 5.991,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 245,
+    "covalent_radius_pm": 169,
+    "vdw_radius_pm": 245,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      120,
+      92,
+      227
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      9,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1613,
+    "boiling_point_K": 3383,
+    "density_g_cm3": 13.51,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": 174
+  },
+  "97": {
+    "atomic_number": 97,
+    "symbol": "Bk",
+    "name": "Berkelium",
+    "atomic_mass": 247.0,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 6.198,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 244,
+    "covalent_radius_pm": 168,
+    "vdw_radius_pm": 244,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3,
+      4
+    ],
+    "color_rgb": [
+      138,
+      79,
+      227
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      27,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1259,
+    "boiling_point_K": 2900,
+    "density_g_cm3": 14.79,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": 170
+  },
+  "98": {
+    "atomic_number": 98,
+    "symbol": "Cf",
+    "name": "Californium",
+    "atomic_mass": 251.0,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 6.282,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 245,
+    "covalent_radius_pm": 168,
+    "vdw_radius_pm": 245,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      161,
+      54,
+      212
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      28,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1173,
+    "boiling_point_K": 1743,
+    "density_g_cm3": 15.1,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": 169
+  },
+  "99": {
+    "atomic_number": 99,
+    "symbol": "Es",
+    "name": "Einsteinium",
+    "atomic_mass": 252.0,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 6.42,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 245,
+    "covalent_radius_pm": 165,
+    "vdw_radius_pm": 245,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      179,
+      31,
+      212
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      29,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1133,
+    "boiling_point_K": 1269,
+    "density_g_cm3": 8.84,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "100": {
+    "atomic_number": 100,
+    "symbol": "Fm",
+    "name": "Fermium",
+    "atomic_mass": 257.0,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 6.5,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 245,
+    "covalent_radius_pm": 167,
+    "vdw_radius_pm": 245,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      179,
+      31,
+      186
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      30,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1800,
+    "boiling_point_K": null,
+    "density_g_cm3": null,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "101": {
+    "atomic_number": 101,
+    "symbol": "Md",
+    "name": "Mendelevium",
+    "atomic_mass": 258.0,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 6.58,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 246,
+    "covalent_radius_pm": 173,
+    "vdw_radius_pm": 246,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3
+    ],
+    "color_rgb": [
+      179,
+      13,
+      166
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      31,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1100,
+    "boiling_point_K": null,
+    "density_g_cm3": null,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "102": {
+    "atomic_number": 102,
+    "symbol": "No",
+    "name": "Nobelium",
+    "atomic_mass": 259.0,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 6.65,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 246,
+    "covalent_radius_pm": 176,
+    "vdw_radius_pm": 246,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2,
+      3
+    ],
+    "color_rgb": [
+      189,
+      13,
+      135
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 1100,
+    "boiling_point_K": null,
+    "density_g_cm3": null,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "103": {
+    "atomic_number": 103,
+    "symbol": "Lr",
+    "name": "Lawrencium",
+    "atomic_mass": 266.0,
+    "electronegativity": 1.3,
+    "ionization_energy_eV": 4.9,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 246,
+    "covalent_radius_pm": 161,
+    "vdw_radius_pm": 246,
+    "category": "actinide",
+    "period": 7,
+    "group": 3,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      199,
+      0,
+      102
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      3
+    ],
+    "phase": "solid",
+    "melting_point_K": 1900,
+    "boiling_point_K": null,
+    "density_g_cm3": null,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "104": {
+    "atomic_number": 104,
+    "symbol": "Rf",
+    "name": "Rutherfordium",
+    "atomic_mass": 267.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 6.0,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 260,
+    "covalent_radius_pm": 157,
+    "vdw_radius_pm": 260,
+    "category": "transition_metal",
+    "period": 7,
+    "group": 4,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      4
+    ],
+    "color_rgb": [
+      204,
+      204,
+      204
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      10,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": 2400,
+    "boiling_point_K": 5800,
+    "density_g_cm3": 23.2,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "105": {
+    "atomic_number": 105,
+    "symbol": "Db",
+    "name": "Dubnium",
+    "atomic_mass": 268.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 6.8,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 149,
+    "vdw_radius_pm": 255,
+    "category": "transition_metal",
+    "period": 7,
+    "group": 5,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      5
+    ],
+    "color_rgb": [
+      209,
+      209,
+      209
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      11,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": null,
+    "boiling_point_K": null,
+    "density_g_cm3": 29.3,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "106": {
+    "atomic_number": 106,
+    "symbol": "Sg",
+    "name": "Seaborgium",
+    "atomic_mass": 269.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 7.8,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 143,
+    "vdw_radius_pm": 255,
+    "category": "transition_metal",
+    "period": 7,
+    "group": 6,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      6
+    ],
+    "color_rgb": [
+      217,
+      217,
+      217
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      12,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": null,
+    "boiling_point_K": null,
+    "density_g_cm3": 35.0,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "107": {
+    "atomic_number": 107,
+    "symbol": "Bh",
+    "name": "Bohrium",
+    "atomic_mass": 270.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 7.7,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 141,
+    "vdw_radius_pm": 255,
+    "category": "transition_metal",
+    "period": 7,
+    "group": 7,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      7
+    ],
+    "color_rgb": [
+      224,
+      224,
+      224
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      13,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": null,
+    "boiling_point_K": null,
+    "density_g_cm3": 37.1,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "108": {
+    "atomic_number": 108,
+    "symbol": "Hs",
+    "name": "Hassium",
+    "atomic_mass": 277.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 7.6,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 134,
+    "vdw_radius_pm": 255,
+    "category": "transition_metal",
+    "period": 7,
+    "group": 8,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      8
+    ],
+    "color_rgb": [
+      230,
+      230,
+      230
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      14,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": null,
+    "boiling_point_K": null,
+    "density_g_cm3": 40.7,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "109": {
+    "atomic_number": 109,
+    "symbol": "Mt",
+    "name": "Meitnerium",
+    "atomic_mass": 278.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 8.0,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 129,
+    "vdw_radius_pm": 255,
+    "category": "transition_metal",
+    "period": 7,
+    "group": 9,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      15,
+      2
+    ],
+    "phase": "solid",
+    "melting_point_K": null,
+    "boiling_point_K": null,
+    "density_g_cm3": 37.4,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "110": {
+    "atomic_number": 110,
+    "symbol": "Ds",
+    "name": "Darmstadtium",
+    "atomic_mass": 281.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 8.3,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 128,
+    "vdw_radius_pm": 255,
+    "category": "transition_metal",
+    "period": 7,
+    "group": 10,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      6
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      17,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": null,
+    "boiling_point_K": null,
+    "density_g_cm3": 34.8,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "111": {
+    "atomic_number": 111,
+    "symbol": "Rg",
+    "name": "Roentgenium",
+    "atomic_mass": 282.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 8.5,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 121,
+    "vdw_radius_pm": 255,
+    "category": "transition_metal",
+    "period": 7,
+    "group": 11,
+    "valence_electrons": 1,
+    "oxidation_states": [
+      3
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      1
+    ],
+    "phase": "solid",
+    "melting_point_K": null,
+    "boiling_point_K": null,
+    "density_g_cm3": 28.7,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "112": {
+    "atomic_number": 112,
+    "symbol": "Cn",
+    "name": "Copernicium",
+    "atomic_mass": 285.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 8.7,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 122,
+    "vdw_radius_pm": 255,
+    "category": "transition_metal",
+    "period": 7,
+    "group": 12,
+    "valence_electrons": 2,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      2
+    ],
+    "phase": "liquid",
+    "melting_point_K": null,
+    "boiling_point_K": 357,
+    "density_g_cm3": 23.7,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "113": {
+    "atomic_number": 113,
+    "symbol": "Nh",
+    "name": "Nihonium",
+    "atomic_mass": 286.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 7.3,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 136,
+    "vdw_radius_pm": 255,
+    "category": "post_transition_metal",
+    "period": 7,
+    "group": 13,
+    "valence_electrons": 3,
+    "oxidation_states": [
+      1
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      3
+    ],
+    "phase": "solid",
+    "melting_point_K": 700,
+    "boiling_point_K": 1400,
+    "density_g_cm3": 16.0,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "114": {
+    "atomic_number": 114,
+    "symbol": "Fl",
+    "name": "Flerovium",
+    "atomic_mass": 289.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 8.5,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 143,
+    "vdw_radius_pm": 255,
+    "category": "post_transition_metal",
+    "period": 7,
+    "group": 14,
+    "valence_electrons": 4,
+    "oxidation_states": [
+      2
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      4
+    ],
+    "phase": "solid",
+    "melting_point_K": 340,
+    "boiling_point_K": 420,
+    "density_g_cm3": 14.0,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "115": {
+    "atomic_number": 115,
+    "symbol": "Mc",
+    "name": "Moscovium",
+    "atomic_mass": 290.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 5.6,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 162,
+    "vdw_radius_pm": 255,
+    "category": "post_transition_metal",
+    "period": 7,
+    "group": 15,
+    "valence_electrons": 5,
+    "oxidation_states": [
+      1,
+      3
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      5
+    ],
+    "phase": "solid",
+    "melting_point_K": 670,
+    "boiling_point_K": 1400,
+    "density_g_cm3": 13.5,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "116": {
+    "atomic_number": 116,
+    "symbol": "Lv",
+    "name": "Livermorium",
+    "atomic_mass": 293.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 7.0,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 175,
+    "vdw_radius_pm": 255,
+    "category": "post_transition_metal",
+    "period": 7,
+    "group": 16,
+    "valence_electrons": 6,
+    "oxidation_states": [
+      -2,
+      2,
+      4
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      6
+    ],
+    "phase": "solid",
+    "melting_point_K": 709,
+    "boiling_point_K": 1085,
+    "density_g_cm3": 12.9,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "117": {
+    "atomic_number": 117,
+    "symbol": "Ts",
+    "name": "Tennessine",
+    "atomic_mass": 294.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 7.7,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 165,
+    "vdw_radius_pm": 255,
+    "category": "halogen",
+    "period": 7,
+    "group": 17,
+    "valence_electrons": 7,
+    "oxidation_states": [
+      -1,
+      1,
+      3
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      7
+    ],
+    "phase": "solid",
+    "melting_point_K": 723,
+    "boiling_point_K": 883,
+    "density_g_cm3": 7.2,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  },
+  "118": {
+    "atomic_number": 118,
+    "symbol": "Og",
+    "name": "Oganesson",
+    "atomic_mass": 294.0,
+    "electronegativity": 0,
+    "ionization_energy_eV": 8.9,
+    "electron_affinity_eV": 0,
+    "atomic_radius_pm": 255,
+    "covalent_radius_pm": 157,
+    "vdw_radius_pm": 255,
+    "category": "noble_gas",
+    "period": 7,
+    "group": 18,
+    "valence_electrons": 8,
+    "oxidation_states": [
+      0
+    ],
+    "color_rgb": [
+      235,
+      235,
+      235
+    ],
+    "electron_config": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      8
+    ],
+    "phase": "gas",
+    "melting_point_K": 325,
+    "boiling_point_K": 450,
+    "density_g_cm3": 5.0,
+    "second_ionization_eV": null,
+    "metallic_radius_pm": null
+  }
 }

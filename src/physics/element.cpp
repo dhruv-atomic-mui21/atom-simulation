@@ -21,7 +21,6 @@ bool PeriodicTable::loadFromFile(const std::string& path) {
     nlohmann::json j;
     f >> j;
 
-    // Helper: safely read a numeric JSON field that might be null
     auto safeFloat = [](const nlohmann::json& v, const char* key, float def) -> float {
         if (v.contains(key) && !v[key].is_null()) return v[key].get<float>();
         return def;
@@ -43,14 +42,20 @@ bool PeriodicTable::loadFromFile(const std::string& path) {
         e.atomicMass       = safeFloat(val, "atomic_mass", 1.0f);
         e.electronegativity= safeFloat(val, "electronegativity", 0.0f);
         e.ionizationEnergy = safeFloat(val, "ionization_energy_eV", 0.0f);
+        e.secondIonization = safeFloat(val, "second_ionization_eV", 0.0f);
         e.electronAffinity = safeFloat(val, "electron_affinity_eV", 0.0f);
         e.atomicRadius     = safeFloat(val, "atomic_radius_pm", 100.0f);
         e.covalentRadius   = safeFloat(val, "covalent_radius_pm", 100.0f);
         e.vdwRadius        = safeFloat(val, "vdw_radius_pm", 150.0f);
+        e.metallicRadius   = safeFloat(val, "metallic_radius_pm", 0.0f);
         e.valenceElectrons = safeInt(val, "valence_electrons", 0);
         e.period           = safeInt(val, "period", 0);
         e.group            = safeInt(val, "group", 0);
         e.category         = safeStr(val, "category", "unknown");
+        e.phase            = safeStr(val, "phase", "solid");
+        e.meltingPoint     = safeFloat(val, "melting_point_K", 0.0f);
+        e.boilingPoint     = safeFloat(val, "boiling_point_K", 0.0f);
+        e.density          = safeFloat(val, "density_g_cm3", 0.0f);
 
         if (val.contains("electron_config"))
             e.electronConfig = val["electron_config"].get<std::vector<int>>();
@@ -71,6 +76,10 @@ bool PeriodicTable::loadFromFile(const std::string& path) {
 const ElementData& PeriodicTable::get(int z) const {
     auto it = elements_.find(z);
     return (it != elements_.end()) ? it->second : dummy_;
+}
+
+bool PeriodicTable::has(int z) const {
+    return elements_.find(z) != elements_.end();
 }
 
 } // namespace physics

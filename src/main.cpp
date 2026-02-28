@@ -3,6 +3,7 @@
 #include "engine/renderer.h"
 #include "physics/element.h"
 #include "physics/simulation.h"
+#include "physics/molecule.h"
 #include "physics/quantum.h"
 #include "ui/periodic_table.h"
 #include "ui/hud.h"
@@ -10,6 +11,7 @@
 #include <iostream>
 #include <random>
 #include <algorithm>
+#include <iomanip>
 
 // ═══════════════════════════════════════════════════════════
 //  Global state for GLFW callbacks
@@ -27,8 +29,10 @@ static void keyCallback(GLFWwindow* win, int key, int, int action, int) {
     switch (key) {
         case GLFW_KEY_ESCAPE: glfwSetWindowShouldClose(win, GLFW_TRUE); break;
         case GLFW_KEY_TAB:    if (g_ptUI) g_ptUI->visible = !g_ptUI->visible; break;
-        case GLFW_KEY_UP:     inter.temperature = std::min(inter.temperature + 100.0f, 10000.0f); break;
-        case GLFW_KEY_DOWN:   inter.temperature = std::max(inter.temperature - 100.0f, 10.0f); break;
+        case GLFW_KEY_UP:     inter.temperature = std::min(inter.temperature + 100.0f, 10000.0f); 
+                              std::cout << "[Temp] " << inter.temperature << "K\n"; break;
+        case GLFW_KEY_DOWN:   inter.temperature = std::max(inter.temperature - 100.0f, 10.0f);
+                              std::cout << "[Temp] " << inter.temperature << "K\n"; break;
         case GLFW_KEY_DELETE: g_sim->clear(); break;
         // Quick spawn shortcuts
         case GLFW_KEY_1: g_sim->spawnAtom(1,  glm::vec3(0)); break; // H
@@ -47,100 +51,103 @@ static void mouseButtonCallback(GLFWwindow* win, int button, int action, int mod
     if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS) {
         double mx, my;
         glfwGetCursorPos(win, &mx, &my);
-        // Try periodic table first
-        if (g_ptUI && g_ptUI->handleClick(
-                static_cast<float>(mx), static_cast<float>(my),
-                g_windowW, g_windowH)) {
-            return; // consumed by UI
-        }
+        if (g_ptUI && g_ptUI->handleClick(static_cast<float>(mx), static_cast<float>(my), 
+                                          g_windowW, g_windowH)) return;
     }
-    // Otherwise pass to camera
-    if (g_camera) {
-        g_camera->attachToWindow(win); // re-attach is harmless
-    }
+    if (g_camera) g_camera->attachToWindow(win);
 }
 
 // ═══════════════════════════════════════════════════════════
 //  Main
 // ═══════════════════════════════════════════════════════════
 int main() {
-    // --- Engine ---
-    engine::Engine eng(1280, 720, "Element Simulator — Emergent Chemistry");
+    engine::Engine eng(1280, 720, "Universal Simulator — Emergent Chemistry");
     engine::Camera camera;
     engine::Renderer renderer;
     renderer.init();
 
-    // --- Physics ---
+    // Physics
     auto& pt = physics::PeriodicTable::instance();
     if (!pt.loadFromFile("data/elements.json")) {
-        std::cerr << "Could not load elements database!\n";
+        std::cerr << "Could not load 118-element database!\n";
         return 1;
     }
 
     physics::Simulation sim;
     physics::QuantumSampler sampler;
-
-    // --- UI ---
     ui::PeriodicTableUI ptUI;
     ui::HUD hud;
 
-    // Wire spawn callback: periodic table click → spawn atom at random pos
+    // Spawn callback: pt click -> random pos
     std::mt19937 rng(std::random_device{}());
-    std::uniform_real_distribution<float> posDist(-15.0f, 15.0f);
+    std::uniform_real_distribution<float> posDist(-10.0f, 10.0f);
     ptUI.setSpawnCallback([&](int z) {
         glm::vec3 pos(posDist(rng), posDist(rng), posDist(rng));
         sim.spawnAtom(z, pos);
-        const auto& el = pt.get(z);
-        std::cout << "Spawned " << el.name << " (" << el.symbol
-                  << ") at (" << pos.x << ", " << pos.y << ", " << pos.z << ")\n";
     });
 
-    // --- Set globals for callbacks ---
-    g_sim    = &sim;
-    g_camera = &camera;
-    g_ptUI   = &ptUI;
-
+    g_sim = &sim; g_camera = &camera; g_ptUI = &ptUI;
     camera.attachToWindow(eng.getWindow());
     glfwSetKeyCallback(eng.getWindow(), keyCallback);
+    glfwSetMouseButtonCallback(eng.getWindow(), mouseButtonCallback);
 
-    // Spawn a few starter atoms
-    sim.spawnAtom(1, glm::vec3(-5, 0, 0));  // H
-    sim.spawnAtom(1, glm::vec3( 5, 0, 0));  // H
-    sim.spawnAtom(8, glm::vec3( 0, 5, 0));  // O
+    // Starter atoms (let's form a water molecule and some salt)
+    sim.spawnAtom(8, glm::vec3(0, 0, 0));    // O
+    sim.spawnAtom(1, glm::vec3(1.5, 1, 0));  // H
+    sim.spawnAtom(1, glm::vec3(-1.5, 1, 0)); // H
 
-    std::cout << "\n=== Element Simulator ===\n"
-              << "Controls:\n"
-              << "  Tab       — toggle periodic table\n"
-              << "  1-8       — quick spawn (H, He, C, O, Na, Cl, Fe, Au)\n"
-              << "  Up/Down   — adjust temperature\n"
-              << "  Delete    — clear all atoms\n"
-              << "  Mouse     — orbit camera\n"
-              << "  Scroll    — zoom\n\n";
+    sim.spawnAtom(11, glm::vec3(5, -5, 0));  // Na
+    sim.spawnAtom(17, glm::vec3(6, -5, 0));  // Cl
 
-    // --- Main loop ---
+    std::cout << "\n=== Universal Simulator ===\n"
+              << "Physics: Velocity Verlet (eV, Å, amu, fs)\n"
+              << "Chemistry: Emergent (Morse bonds, Born-Haber ionic, VSEPR angles)\n"
+              << "Controls: Tab to toggle PT, 1-8 for presets, Up/Down for temp.\n\n";
+
     float fpsTimer = 0, frameCount = 0, fps = 0;
-    float physDt = 0.016f; // fixed physics timestep
+    float physDt = 1.0f; // 1 fs integration step
+    int lastLogCount = 0;
+    std::string latestReaction = "";
 
     while (eng.isRunning()) {
         eng.beginFrame();
         float dt = eng.getDeltaTime();
-        g_windowW = eng.getWidth();
-        g_windowH = eng.getHeight();
+        g_windowW = eng.getWidth(); g_windowH = eng.getHeight();
 
-        // FPS counter
         fpsTimer += dt; frameCount++;
         if (fpsTimer > 1.0f) {
             fps = frameCount / fpsTimer;
             fpsTimer = 0; frameCount = 0;
+            
+            // Console print high-level stats every second
+            const auto& mols = sim.molecules();
+            if (!mols.empty() && mols.size() < sim.atoms().size()) {
+                std::cout << "[Molecules] ";
+                for (const auto& m : mols) if (m.atomIndices.size() > 1) std::cout << m.formula << " ";
+                std::cout << "\n";
+            }
         }
 
         // --- Physics step ---
-        sim.step(physDt);
+        // Run physics at ~1000 steps per frame (1 ps per frame) for stability
+        // To keep it smooth but interactive, we'll do 50 substeps.
+        for(int i=0; i<50; ++i) {
+            sim.step(physDt);
+        }
 
-        // --- Build render data ---
-        auto& atoms = sim.atoms();
+        // Print new reactions
+        const auto& logs = sim.reactionLog();
+        if (logs.size() > lastLogCount) {
+            for (size_t i = lastLogCount; i < logs.size(); ++i) {
+                std::cout << "[Reaction] " << std::fixed << std::setprecision(1) 
+                          << logs[i].time << "fs: " << logs[i].description << "\n";
+                latestReaction = logs[i].description;
+            }
+            lastLogCount = logs.size();
+        }
 
-        // Atom spheres
+        // --- Render Data ---
+        const auto& atoms = sim.atoms();
         std::vector<engine::SphereInstance> spheres;
         for (const auto& a : atoms) {
             engine::SphereInstance s;
@@ -150,20 +157,18 @@ int main() {
             spheres.push_back(s);
         }
 
-        // Bonds
         std::vector<engine::BondInstance> bondInstances;
         for (size_t i = 0; i < atoms.size(); ++i) {
             for (const auto& b : atoms[i].bonds) {
-                if (b.otherAtomIdx > static_cast<int>(i)) { // avoid duplicates
+                if (b.otherAtomIdx > static_cast<int>(i)) {
                     engine::BondInstance bi;
                     bi.posA = atoms[i].pos;
                     bi.posB = atoms[b.otherAtomIdx].pos;
                     bi.thickness = 0.1f * b.order;
-                    // Color by bond type
                     if (b.type == physics::Bond::IONIC)
-                        bi.color = glm::vec4(1.0f, 0.8f, 0.2f, 1.0f);
+                        bi.color = glm::vec4(1.0f, 0.8f, 0.2f, 1.0f); // Gold = Ionic
                     else if (b.type == physics::Bond::COVALENT)
-                        bi.color = glm::vec4(0.5f, 0.8f, 1.0f, 1.0f);
+                        bi.color = glm::vec4(0.5f, 0.8f, 1.0f, 1.0f); // Blue = Covalent
                     else
                         bi.color = glm::vec4(0.7f, 0.7f, 0.7f, 1.0f);
                     bondInstances.push_back(bi);
@@ -171,49 +176,21 @@ int main() {
             }
         }
 
-        // Electron clouds (sample a few points per atom)
-        std::vector<engine::CloudPoint> cloud;
-        const int samplesPerAtom = 200;
-        for (const auto& a : atoms) {
-            // Build (n,l) list for Slater shielding
-            std::vector<std::pair<int,int>> nlList;
-            for (const auto& e : a.electrons)
-                nlList.push_back({e.qn.n, e.qn.l});
-
-            // Only visualize valence shell
-            int maxN = physics::outermostShell(a.electrons);
-            for (const auto& e : a.electrons) {
-                if (e.qn.n != maxN) continue;
-                float zEff = physics::QuantumSampler::computeZeff(
-                    a.elementZ, e.qn.n, e.qn.l, nlList);
-                for (int s = 0; s < samplesPerAtom / std::max(1, a.element->valenceElectrons); ++s) {
-                    glm::vec3 localPos = sampler.samplePosition(e.qn.n, e.qn.l, e.qn.m, zEff);
-                    float r = glm::length(localPos);
-                    float theta = (r > 1e-6f) ? std::acos(localPos.y / r) : 0;
-                    float phi   = std::atan2(localPos.z, localPos.x);
-                    float prob  = physics::QuantumSampler::probabilityDensity(
-                        e.qn.n, e.qn.l, e.qn.m, zEff, r, theta, phi);
-                    glm::vec4 col = physics::QuantumSampler::heatmapColor(
-                        prob * 500.0f * std::pow(3.0f, e.qn.n));
-                    col.a = 0.4f;
-                    cloud.push_back({a.pos + localPos, col});
-                }
-            }
-        }
-
-        // --- Render ---
         glm::mat4 view = camera.getViewMatrix();
         glm::mat4 proj = camera.getProjectionMatrix(eng.getAspectRatio());
 
-        renderer.drawElectronCloud(cloud, view, proj);
         renderer.drawAtoms(spheres, view, proj);
         renderer.drawBonds(bondInstances, view, proj);
 
-        // UI overlays
         ptUI.render(g_windowW, g_windowH);
         hud.render(g_windowW, g_windowH,
                    static_cast<int>(atoms.size()),
-                   fps, sim.interactions().temperature);
+                   static_cast<int>(sim.molecules().size()),
+                   fps, sim.interactions().temperature,
+                   sim.interactions().totalKE,
+                   sim.interactions().totalPE,
+                   sim.interactions().totalBondE,
+                   latestReaction);
 
         eng.endFrame();
     }

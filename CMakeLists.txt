@@ -26,6 +26,7 @@ set(SOURCES
     src/physics/electron.cpp
     src/physics/quantum.cpp
     src/physics/interaction.cpp
+    src/physics/molecule.cpp
     src/physics/simulation.cpp
 
     # UI
