@@ -1,0 +1,10 @@
+{
+  "name": "element-simulator",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "glew",
+    "glfw3",
+    "glm",
+    "nlohmann-json"
+  ]
+}
