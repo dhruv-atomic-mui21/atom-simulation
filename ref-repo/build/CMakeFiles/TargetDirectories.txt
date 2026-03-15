@@ -1,0 +1,3 @@
+/home/dhruvdipakchudasama686/atom-simulation/ref-repo/build/CMakeFiles/atom.dir
+/home/dhruvdipakchudasama686/atom-simulation/ref-repo/build/CMakeFiles/edit_cache.dir
+/home/dhruvdipakchudasama686/atom-simulation/ref-repo/build/CMakeFiles/rebuild_cache.dir

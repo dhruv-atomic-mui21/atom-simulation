@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/atom.dir/z_saves/atom.cpp.o -o atom  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 
